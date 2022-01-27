@@ -47,7 +47,7 @@
           /></a>
           <div class="counter message">18</div>
           <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
-            <div class="mark"></div></div>
+          <div class="mark"></div></div>
           <span class="name">Кристина Анфалова</span>
           <button class="button-sub-menu">
             <img src="img/icon3.png" alt="" />
@@ -73,7 +73,7 @@
               <a class="ajax-site menu-link" href="#">Серфинг</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-sitemenu-link" href="#">Письма</a>
+              <a class="ajax-site menu-link" href="#">Письма</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Тесты</a>
@@ -142,13 +142,15 @@
           </div>
           <ul class="sub-profile">
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link active" href="profile.html">Мой профиль</a>
+              <a class="ajax-site menu-link " href="profile.html"
+                >Мой профиль</a
+              >
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Моя статистика</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="message.html">Мои сообщения</a>
+              <a class="ajax-site menu-link active" href="message.html">Мои сообщения</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Мои достижения</a>
@@ -157,171 +159,147 @@
               <a class="ajax-site menu-link" href="status.html">Статусы</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="history.html"
+              <a class="ajax-site menu-link" href="history.html"
                 >История операций</a
               >
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="setting.html">Настройки</a>
+              <a class="ajax-site menu-link" href="setting.html"
+                >Настройки</a
+              >
             </li>
           </ul>
         </aside>
+
         <div class="content">
           <ul class="tab-menu">
             <li class="tab-item tab-active">
-              <a class="tab-link" href="personalData.html">Личные данные</a>
-            </li>
-            <li class="tab-item"><a class="tab-link" href="finans.html">Финансы</a></li>
-            <li class="tab-item"><a class="tab-link" href="social.html">Соц.сети</a></li>
-            <li class="tab-item">
-              <a class="tab-link" href="notification.html">Оповещения</a>
+              <a class="tab-link" href="personalData.html">Мои диалоги</a>
             </li>
             <li class="tab-item">
-              <a class="tab-link" href="safety.html">Безопасность</a>
+              <a class="tab-link" href="finans.html">Рассылка</a>
             </li>
+            <li class="tab-item">
+              <a class="tab-link" href="social.html">Черный список</a>
+            </li>
+          
           </ul>
-          <div class="registration">
-            <div class="confirm">
-              <span class="confirm-text"
-                >Подтвердите ваш электронный адрес - письмо отправлено на
-                почту.</span
-              >
-            </div>
-            <div class="reguirement">
-              <div class="avatar">
-                <img
-                  class="avatar-img"
-                  src="img/avatar.png"
-                  alt="aватар иконка"
-                /><img class="avatar-img2" src="img/pain.png" alt="иконка" />
-              </div>
-              <!--avatar--><span class="footnote">*</span>
-              <p class="reguirement-text">
-                Картинка для аватара не должна превышать 210х185 пикселей и быть
-                не более 100 килобайт.<br />
-                Минимальный размер 60x60px.<br />
-                Принимаются картинки таких типов: gif, jpg, jpeg, png.
-              </p>
-              <!-- /.reguirement-text -->
-            </div>
-            <!--reguirement-->
-            <div class="block-form">
-              <form class="form-left">
-                <label class="label"
-                  ><div class="question">?</div>
 
-                  Имя</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Имя"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
+          <div class="search">
+          <input class="textarea search-input" name="text" placeholder="Для поиска введите Логин или ID">
+          <svg class="img-search" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12.7578" cy="12" r="7.48528" transform="rotate(-45 12.7578 12)" stroke="#17212B" stroke-width="2"/>
+            <line x1="19.2267" y1="17.6855" x2="22.2784" y2="20.7373" stroke="#17212B" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            
+        </input>
 
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Пол</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="Мужской"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="form-sub-menu " src="img/icon3.png"><label class="label"
-                  ><div class="question">?</div>
-
-                  E-mail</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="mail"
-                  placeholder="example@mail.ru"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><label class="label"
-                  ><div class="question">?</div>
-
-                  Номер телефона</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="phone"
-                  placeholder="+7 (900) 900-00-00"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                />
-                <div class="phone">
-                  <img class="form-img" src="img/icon3.png" alt="icon" />
-                  <a class="link-phone"
-                    href="#"
-                    
-                    >Подтвердить телефон</a
-                  >
-                </div>
-              </form>
-
-              <form class="form-right">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Фамилия</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Фамилия"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
-
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Дата рождения</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="дд . мм . гггг"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="calendar" src="img/calendar.png">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Геотаргетинг</label
-                >
-                <div class="radio">
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Реферал</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Исполнитель</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Рекламодатель</span></label></div>
-                </form> 
-            </div><!-- /.block-form -->
-          
-          
-           
-          </div><!--registration--> 
-  <button class="button2 button-form">
-            Сохранить
-          </button>
-         
+        <a class="search-link" href="#">+ Начать новый диалог</a>
         </div>
+          
+        
+        <div class="messages-blocks">
+<div class="wrapper-message">
+            <div class="message-users block-message-unread">
+             <div class="user-on"> <img class="user-foto" src="img/fotoComments1.png" alt="foto"> <div class="mark"></div></div>
+              <div class="message-text"><span>Карл Маркович</span><span class="comments-data">16:25, 21 ноября 2020 </span>
+                <div class="comment-message user-message-unread">Dictumst rhoncus a mattis dui ac scelerisque diam mauris suspendisse. Molestie arcu ac enimmattis dui ac sc.  </div><div class="counter-block counter-message">24</div> </div>
+           </div>
+  </div>
+  <div class="wrapper-message"> <div class="message-users block-message-unread">
+            <div class="user-on"> <img class="user-foto" src="img/fotoComments2.png" alt="foto"> </div>
+             <div class="message-text"><span>Ирина Пименова</span><span class="comments-data">16:25, 21 ноября 2020 </span>
+               <div class="comment-message user-message-unread">Dictumst rhoncus a mattis dui ac scelerisque diam mauris suspendisse. Molestie arcu ac enimmattis dui ac sc.  </div><div class="counter-block counter-message">5</div> </div>
+          </div>
+        </div>
+   
+        <div class="message-users">
+          <div class="user-on"> <img class="user-foto" src="img/fotoComments3.png" alt="foto"> <div class="mark"></div> </div>
+           <div class="message-text"><span>Марина Иванова</span><span class="comments-data">16:25, 21 ноября 2020 </span>
+             <div class="comment-message ">Molestie arcu ac enimmattis dui ac sc.    </div> </div>
+        </div>
+    
+     <div class="message-users ">
+        <div class="user-on"> <img class="user-foto" src="img/fotoComments4.png" alt="foto"> <div class="mark"></div> </div>
+         <div class="message-text"><span>Олеся Соболева</span><span class="comments-data">16:25, 21 ноября 2020 </span>
+           <div class="comment-message ">Molestie arcu ac enimmattis dui ac sc. Dictumst rhoncus a mattis dui ac.   </div></div>
+      </div>
+   
+      
+
+          <a  href="#"class="show-link"><div class="show"
+            >Показать ещё </div></a>
+        </div>
+       
+<!--МОДАЛЬНОЕ ОКНО 1-->
+<div class="modal is-open" id='modal_1'>
+  <div class="modal-dialog">
+    <button class="modal-dialog-button" onClick="none_menu('modal_1');">
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 1L1 9" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9 9L1 1" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+      </button>
+      
+
+      <div class="search">
+        <input class="textarea search-input" name="text" placeholder="Для поиска введите Логин или ID">
+        <svg class="img-search" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12.7578" cy="12" r="7.48528" transform="rotate(-45 12.7578 12)" stroke="#17212B" stroke-width="2"/>
+          <line x1="19.2267" y1="17.6855" x2="22.2784" y2="20.7373" stroke="#17212B" stroke-width="2" stroke-linecap="round"/>
+          </svg>   
+      </input>
+      </div>
+   
+<div class="modal-users">
+  <div class="left-modal-users"> 
+    <div class="message-user">
+    <div class="user-on"> <img class="user-foto" src="img/fotoComments2.png" alt="foto"> <div class="mark"></div></div>
+     <div class="message-text user-name-modal"><span>Ирина Пименова</span></div>
+  </div>
+
+  <div class="message-user">
+    <div class="user-on"> <img class="user-foto" src="img/fotoComments4.png" alt="foto"> <div class="mark"></div></div>
+     <div class="message-text user-name-modal"><span>Олеся Соболева</span></div>
+  </div>
+  <div class="message-user">
+    <div class="user-on"> <img class="user-foto" src="img/fotoComments3.png" alt="foto"> <div class="mark"></div></div>
+     <div class="message-text user-name-modal"><span>Мария Иванова</span></div>
+  </div><div class="message-user">
+    <div class="user-on"> <img class="user-foto" src="img/fotomessage1.png" alt="foto"> <div class="mark"></div></div>
+     <div class="message-text user-name-modal"><span>Владимир Сабуров</span></div>
+  </div><div class="message-user">
+    <div class="user-on"> <img class="user-foto" src="img/fotomessage2.png" alt="foto"> <div class="mark"></div></div>
+     <div class="message-text user-name-modal"><span>Кира Ветрова</span></div>
+  </div></div>
+  <div class="right-modal-users">
+    <div class="message-user">
+      <div class="user-on"> <img class="user-foto" src="img/fotomessage3.png" alt="foto"> <div class="mark"></div></div>
+       <div class="message-text user-name-modal"><span>Тоня Ватрушкина</span></div>
+    </div><div class="message-user">
+      <div class="user-on"> <img class="user-foto" src="img/fotomessage4.png" alt="foto"> <div class="mark"></div></div>
+       <div class="message-text user-name-modal"><span>Карл Маркович</span></div>
+    </div><div class="message-user">
+      <div class="user-on"> <img class="user-foto" src="img/fotomessage5.png" alt="foto"> <div class="mark"></div></div>
+       <div class="message-text user-name-modal"><span>Соня Бережная</span></div>
+    </div><div class="message-user">
+      <div class="user-on"> <img class="user-foto" src="img/fotomessage6.png" alt="foto"> <div class="mark"></div></div>
+       <div class="message-text user-name-modal"><span>Ирина Сумкина</span></div>
+    </div><div class="message-user">
+      <div class="user-on"> <img class="user-foto" src="img/fotomessage7.png" alt="foto"> <div class="mark"></div></div>
+       <div class="message-text user-name-modal"><span>Екатерина Лейн</span></div>
+    </div>
+
+  
+</div>
+
+
+  </div>
+  <!-- /.modal-dialog -->
+</div><!--/.modal-->
+
+
         <!-- /.content -->
       </section>
     </main>
@@ -385,5 +363,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

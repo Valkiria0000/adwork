@@ -47,7 +47,7 @@
           /></a>
           <div class="counter message">18</div>
           <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
-            <div class="mark"></div></div>
+            <div class="mark "></div></div>
           <span class="name">Кристина Анфалова</span>
           <button class="button-sub-menu">
             <img src="img/icon3.png" alt="" />
@@ -73,7 +73,7 @@
               <a class="ajax-site menu-link" href="#">Серфинг</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-sitemenu-link" href="#">Письма</a>
+              <a class="ajax-site menu-link" href="#">Письма</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Тесты</a>
@@ -142,13 +142,15 @@
           </div>
           <ul class="sub-profile">
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link active" href="profile.html">Мой профиль</a>
+              <a class="ajax-site menu-link active" href="profile.html"
+                >Мой профиль</a
+              >
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Моя статистика</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="message.html">Мои сообщения</a>
+              <a class="ajax-site menu-link" href="message">Мои сообщения</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Мои достижения</a>
@@ -157,170 +159,182 @@
               <a class="ajax-site menu-link" href="status.html">Статусы</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="history.html"
+              <a class="ajax-site menu-link" href="history.html"
                 >История операций</a
               >
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="setting.html">Настройки</a>
+              <a class="ajax-site menu-link" href="setting.html"
+                >Настройки</a
+              >
             </li>
           </ul>
         </aside>
+
         <div class="content">
           <ul class="tab-menu">
-            <li class="tab-item tab-active">
+            <li class="tab-item">
               <a class="tab-link" href="personalData.html">Личные данные</a>
             </li>
-            <li class="tab-item"><a class="tab-link" href="finans.html">Финансы</a></li>
-            <li class="tab-item"><a class="tab-link" href="social.html">Соц.сети</a></li>
+            <li class="tab-item">
+              <a class="tab-link" href="finans.html">Финансы</a>
+            </li>
+            <li class="tab-item">
+              <a class="tab-link" href="social.html">Соц.сети</a>
+            </li>
             <li class="tab-item">
               <a class="tab-link" href="notification.html">Оповещения</a>
             </li>
-            <li class="tab-item">
+            <li class="tab-item tab-active">
               <a class="tab-link" href="safety.html">Безопасность</a>
             </li>
           </ul>
-          <div class="registration">
-            <div class="confirm">
-              <span class="confirm-text"
-                >Подтвердите ваш электронный адрес - письмо отправлено на
-                почту.</span
-              >
+          <div class="content-blocks">
+            <div class="content-block-item">
+              Смена пароля
+              <div class="counter-block">5</div>
+              <button class="button-sub-menu">
+                <img src="img/icon3.png" alt="icon" />
+              </button>
             </div>
-            <div class="reguirement">
-              <div class="avatar">
-                <img
-                  class="avatar-img"
-                  src="img/avatar.png"
-                  alt="aватар иконка"
-                /><img class="avatar-img2" src="img/pain.png" alt="иконка" />
+            <div class="">
+              <div class="password-text">
+                После смены пароля потребуется повторная авторизация
               </div>
-              <!--avatar--><span class="footnote">*</span>
-              <p class="reguirement-text">
-                Картинка для аватара не должна превышать 210х185 пикселей и быть
-                не более 100 килобайт.<br />
-                Минимальный размер 60x60px.<br />
-                Принимаются картинки таких типов: gif, jpg, jpeg, png.
-              </p>
-              <!-- /.reguirement-text -->
             </div>
-            <!--reguirement-->
-            <div class="block-form">
-              <form class="form-left">
-                <label class="label"
-                  ><div class="question">?</div>
+            <div class="password-form">
+              <div class="form-wrapper">
+                <form class="form-left">
+                  <label class="label"
+                    ><div class="question">?</div>
 
-                  Имя</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Имя"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
+                    Пароль</label
+                  ><input
+                    class="input"
+                    type="text"
+                    name="name"
+                    placeholder="Пароль"
+                    required
+                    maxlength="10"
+                    minlength="2"
+                    autocomplete="on"
+                  />
+                </form>
 
-                <label class="label"
-                  ><div class="question">?</div>
+                <form class="form-right">
+                  <label class="label"
+                    ><div class="question">?</div>
 
-                  Пол</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="Мужской"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="form-sub-menu " src="img/icon3.png"><label class="label"
-                  ><div class="question">?</div>
+                    Повторите пароль</label
+                  ><input
+                    class="input"
+                    type="text"
+                    name="name"
+                    placeholder="Повторите пароль"
+                    required
+                    maxlength="10"
+                    minlength="2"
+                    autocomplete="on"
+                  />
+                </form>
+              </div>
+              <button class="button2 password-button">Сохранить</button>
+            </div>
+          </div>
 
-                  E-mail</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="mail"
-                  placeholder="example@mail.ru"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><label class="label"
-                  ><div class="question">?</div>
+          <div class="content-blocks">
+            <div class="content-block-item">
+              Смена пароля
+              <div class="counter-block">5</div>
+              <button class="button-sub-menu">
+                <img src="img/icon3.png" alt="icon" />
+              </button>
+            </div>
+            
+            
+            
+            <div class="password-form">
+              <div class="notify-item">
+                  <div class="notify-item-left">
+                     <form class="form-left">
+                  <label class="label"
+                    ><div class="question">?</div>
 
-                  Номер телефона</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="phone"
-                  placeholder="+7 (900) 900-00-00"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                />
-                <div class="phone">
-                  <img class="form-img" src="img/icon3.png" alt="icon" />
-                  <a class="link-phone"
-                    href="#"
-                    
-                    >Подтвердить телефон</a
+                    Защита по IP</label
+                  ><input
+                    class="input"
+                    type="text"
+                    name="name"
+                    placeholder="190.100.100.100"
+                    required
+                    maxlength="10"
+                    minlength="2"
+                    autocomplete="on"
+                  />
+
+                  
+                </form><span class="ip-text">Ваш аккаунт будет блокироваться каждый раз, когда вход осуществляется<br> с отличного от предыдущего ip-адреса.</span>
+                  </div>
+                  <div class="notify-item-right">
+                    <div class="notify-switch"></div>
+                  </div>
+                </div>
+             
+            </div>
+          </div> 
+          
+          <div class="content-blocks">
+            <div class="content-block-item">
+              Удаление аккаунта
+              <div class="counter-block">5</div>
+              <button class="button-sub-menu">
+                <img src="img/icon3.png" alt="icon" />
+              </button>
+            </div>
+            
+              <div class="delete-warning">
+                <h3 class="delete-title">Внимание!</h3>
+                <p class="delete-text">Удаляя аккаунт, вы теряете всё, что с ним связано, баланс, рейтинг, рефералов, достижения, рекламные кампании, статистику, различные материалы созданные при помощи сервиса и другие данные.</p>
+              </div>
+            
+            <div class="delete-form">
+              
+
+                <h3 class="delete-title">Вы уверены?</h3>
+                <div class="checkbox">
+                  <label
+                    ><input class="input_checkbox" type="checkbox" name="box" />
+                    <span class="box"></span>
+                  </label>
+                  <span class="text-chekbox"
+                    >Да, удалите мой аккаунт, я понимаю, что делаю!</span
                   >
                 </div>
-              </form>
 
-              <form class="form-right">
-                <label class="label"
-                  ><div class="question">?</div>
+                <p class="delete-text">Если вы хотите удалить аккаунт, запросите пин-код на почту и введите его.</p>
+                <form class="form-left">
+                  <label class="label"
+                    ><div class="question">?</div>
 
-                  Фамилия</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Фамилия"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
+                    PIN-код</label
+                  ><input
+                    class="input"
+                    type="text"
+                    name="name"
+                    placeholder="PIN-код"
+                    required
+                    maxlength="10"
+                    minlength="2"
+                    autocomplete="on"
+                  />
+                </form>
 
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Дата рождения</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="дд . мм . гггг"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="calendar" src="img/calendar.png">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Геотаргетинг</label
-                >
-                <div class="radio">
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Реферал</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Исполнитель</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Рекламодатель</span></label></div>
-                </form> 
-            </div><!-- /.block-form -->
+               
+              
+              <button class="button2 password-button">Запросить</button>
+            </div>
+          </div>
           
-          
-           
-          </div><!--registration--> 
-  <button class="button2 button-form">
-            Сохранить
-          </button>
-         
         </div>
         <!-- /.content -->
       </section>

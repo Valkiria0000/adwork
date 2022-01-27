@@ -142,7 +142,7 @@
           </div>
           <ul class="sub-profile">
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link active" href="profile.html">Мой профиль</a>
+              <a class="ajax-site menu-link" href="profile.html">Мой профиль</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Моя статистика</a>
@@ -157,170 +157,61 @@
               <a class="ajax-site menu-link" href="status.html">Статусы</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="history.html"
+              <a class="ajax-site menu-link" href="history.html"
                 >История операций</a
               >
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="setting.html">Настройки</a>
+              <a class="ajax-site menu-link active" href="setting.html"
+                >Настройки</a
+              >
             </li>
           </ul>
         </aside>
         <div class="content">
           <ul class="tab-menu">
-            <li class="tab-item tab-active">
+            <li class="tab-item">
               <a class="tab-link" href="personalData.html">Личные данные</a>
             </li>
-            <li class="tab-item"><a class="tab-link" href="finans.html">Финансы</a></li>
-            <li class="tab-item"><a class="tab-link" href="social.html">Соц.сети</a></li>
             <li class="tab-item">
+              <a class="tab-link" href="finans.html">Финансы</a>
+            </li>
+            <li class="tab-item">
+              <a class="tab-link" href="social.html">Соц.сети</a>
+            </li>
+            <li class="tab-item tab-active">
               <a class="tab-link" href="notification.html">Оповещения</a>
             </li>
             <li class="tab-item">
               <a class="tab-link" href="safety.html">Безопасность</a>
             </li>
           </ul>
-          <div class="registration">
-            <div class="confirm">
-              <span class="confirm-text"
-                >Подтвердите ваш электронный адрес - письмо отправлено на
-                почту.</span
-              >
-            </div>
-            <div class="reguirement">
-              <div class="avatar">
-                <img
-                  class="avatar-img"
-                  src="img/avatar.png"
-                  alt="aватар иконка"
-                /><img class="avatar-img2" src="img/pain.png" alt="иконка" />
+
+          <div class="notifyc">
+            <div class="notify-item">
+              <div class="notify-item-left">
+                <h3 class="notify-title">Получать рассылку по почте</h3>
+                <p class="notify-text">
+                  Будьте в курсе последних новостей проекта, акций и скидок
+                </p>
               </div>
-              <!--avatar--><span class="footnote">*</span>
-              <p class="reguirement-text">
-                Картинка для аватара не должна превышать 210х185 пикселей и быть
-                не более 100 килобайт.<br />
-                Минимальный размер 60x60px.<br />
-                Принимаются картинки таких типов: gif, jpg, jpeg, png.
-              </p>
-              <!-- /.reguirement-text -->
+              <div class="notify-item-right">
+                <div class="notify-switch"></div>
+              </div>
             </div>
-            <!--reguirement-->
-            <div class="block-form">
-              <form class="form-left">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Имя</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Имя"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
-
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Пол</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="Мужской"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="form-sub-menu " src="img/icon3.png"><label class="label"
-                  ><div class="question">?</div>
-
-                  E-mail</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="mail"
-                  placeholder="example@mail.ru"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><label class="label"
-                  ><div class="question">?</div>
-
-                  Номер телефона</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="phone"
-                  placeholder="+7 (900) 900-00-00"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                />
-                <div class="phone">
-                  <img class="form-img" src="img/icon3.png" alt="icon" />
-                  <a class="link-phone"
-                    href="#"
-                    
-                    >Подтвердить телефон</a
-                  >
-                </div>
-              </form>
-
-              <form class="form-right">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Фамилия</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Фамилия"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
-
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Дата рождения</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="дд . мм . гггг"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="calendar" src="img/calendar.png">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Геотаргетинг</label
-                >
-                <div class="radio">
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Реферал</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Исполнитель</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Рекламодатель</span></label></div>
-                </form> 
-            </div><!-- /.block-form -->
-          
-          
-           
-          </div><!--registration--> 
-  <button class="button2 button-form">
-            Сохранить
-          </button>
-         
+            <div class="notify-item">
+              <div class="notify-item-left">
+                <h3 class="notify-title">Получать уведомления по почте</h3>
+                <p class="notify-text">
+                  Вы будете получать на почту уведомления о пополнении баланса,
+                  выводе средств и пр.
+                </p>
+              </div>
+              <div class="notify-item-right">
+                <div class="notify-switch off"></div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- /.content -->
       </section>

@@ -7,6 +7,8 @@
     <title>account</title>
     <link href="css/styleProfile.css" type="text/css" rel="stylesheet" />
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+   
+   
   </head>
   <body>
     <header class="header">
@@ -46,8 +48,8 @@
             ><img src="img/Message.jpg" alt="Сообщения" class="header-icon2"
           /></a>
           <div class="counter message">18</div>
-          <img src="img/foto1.png" alt="Фото пользователя" class="foto" />
-          <div class="mark mark-header"></div>
+          <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
+            <div class="mark "></div></div>
           <span class="name">Кристина Анфалова</span>
           <button class="button-sub-menu">
             <img src="img/icon3.png" alt="" />
@@ -142,19 +144,19 @@
           </div>
           <ul class="sub-profile">
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link active" href="#">Мой профиль</a>
+              <a class="ajax-site menu-link active" href="profile.html">Мой профиль</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Моя статистика</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="#">Мои сообщения</a>
+              <a class="ajax-site menu-link" href="message.html">Мои сообщения</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Мои достижения</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="#">Статусы</a>
+              <a class="ajax-site menu-link" href="status.html">Статусы</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="history.html"
@@ -162,15 +164,96 @@
               >
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="#">Настройки</a>
+              <a class="ajax-site menu-link" href="setting.html">Настройки</a>
             </li>
           </ul>
         </aside>
         <div class="content">
+
+<!--МОДАЛЬНОЕ ОКНО 1-->
+          <div class="modal is-open" id='modal_1'>
+            <div class="modal-dialog">
+              <button class="modal-dialog-button" onClick="none_menu('modal_1');">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 1L1 9" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9 9L1 1" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+                </button>
+                <h1 class="modal-title">Новое сообщение</h1>
+                <div class="modal-account">
+                  
+                  <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto foto-modal" />
+                  <div class="mark"></div></div>
+                  <span class="name">Кристина Анфалова</span>
+                  
+                </div>
+                
+              
+                  
+                  <div class="area-block">
+                   
+          
+              <input class="textarea modal-textarea" name="text" placeholder="Введите сообщение..."></input>
+              <img class="modal-icon1" src="img/paperClip.png" alt="icon"> 
+              <img class="modal-icon2" src="img/smail1.png" alt="icon">
+             
+            
+                  </div>
+                 <div class="modal-item"><a class="modal-link" href="#">Перейти к диалогу с Крис Анфалова</a>
+              <button class="button1 button-modal">
+                <img src="img/messageButton.png" alt="иконка" /><span
+                  class="text-button"
+                  >Отправить</span
+                >
+              </button></div>
+             
+            </div>
+            <!-- /.modal-dialog -->
+          </div><!--/.modal-->
+
+<!--Модальное окно 2-->
+
+
+<div class="modal modal2 is-open" id='modal_2' >
+  <div class="modal-dialog">
+    <button class="modal-dialog-button" onClick="none_menu('modal_2');">
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 1L1 9" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9 9L1 1" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+      </button>
+      <h1 class="modal-title">Стать рефералом</h1>
+      <div class="modal-account modal-account2">
+        <img src="img/fotoComment.png" alt="Фото пользователя">
+        <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto foto-modal2" />
+        <div class="mark "></div></div>
+        
+        
+      </div>
+      
+    
+        
+        <p class="modal2-text">Вы действительно хотите присоединиться к Кристина Анфалова?</p>
+      <div class="modal-button-groop">
+        <button class="button1 button-textarea">
+          
+          <span
+            class="text-button"
+            >Да, хочу</span
+          >
+        </button><button class=" button2 button-textarea">Отменить</button></div>
+   
+  </div>
+  <!-- /.modal-dialog2-->
+</div><!--modal2-->
+
+
           <div class="user-block">
             <div class="wrapper-user-block">
-              <img src="img/foto1.png" alt="Фото пользователя" />
-              <div class="mark"></div>
+             <div class="user-on" ><img src="img/foto1.png" alt="Фото пользователя" />
+              <div class="mark mark-main"></div></div>
               <div class="user-block-main">
                 <div class="user">
                   <h1 class="user-name">Кристина Анфалова</h1>
@@ -218,14 +301,14 @@
             </div>
             <!-- /.wrapper-user-block -->
             <div class="contact-buttons">
-              <button class="button-message">
+              <button class="button1 button-message">
                 <img src="img/messageButton.png" alt="иконка" /><span
                   class="text-button"
                   >Написать сообщение</span
                 >
               </button>
-              <button class="button-referral">Стать рефералом</button>
-              <a href="#">
+              <button class="button2 button-message">Стать рефералом</button>
+              <a class="link-comment" href="#">
                 <img src="img/plus.png" alt="иконка добавить" /><span
                   class="comment"
                   >Написать комментарий о Крис Анфалова</span
@@ -358,7 +441,80 @@
               <button class="button-sub-menu">
                 <img src="img/icon3.png" alt="icon" />
               </button>
-            </div> <div class="block-item-comment"><div class="text-block record">Нет ни одного комментария.<br>Вы можеет оставить первый комментарий о пользователе, нажав на кнопку “Написать комментарий”.</div></div>
+            </div> 
+            <div class="block-item-comment">
+              <div class="text-block record">Нет ни одного комментария.<br>Вы можеет оставить первый комментарий о пользователе, нажав на кнопку “Написать комментарий”.</div>
+              <div class="area-block">
+                <div class="user-on"> <img src="img/fotoComment.png" alt="Фото пользователя" class="foto foto2" />
+          <div class="mark"></div></div>
+          <input class="textarea" name="text" placeholder="Введите сообщение..."></input>
+          <img class="textarea-icon-left" src="img/paperClip.png" alt="icon"> 
+          <img class="textarea-icon-right" src="img/smail1.png" alt="icon">
+          <button class="button1 button-textarea">
+            <img src="img/messageButton.png" alt="иконка" /><span
+              class="text-button"
+              >Отправить</span
+            >
+          </button>
+          <button class=" button2 button-textarea">Отменить</button>
+              </div>
+
+<div class="coments-users">
+
+
+  <div class="user-on"><img class="user-foto" src="img/fotoComments1.png" alt="foto">
+  <div class=" mark"></div></div>
+  <div class="comments-text"><span>Карл Маркович</span><span class="comments-data">16:25, 21 ноября 2020 </span>
+    <div class="comment-message">Dictumst rhoncus a mattis dui ac scelerisque diam mauris suspendisse. Molestie arcu ac enimmattis dui ac sc.  </div></div>
+
+
+
+</div>
+
+<div class="coments-users">
+
+
+  <img class="user-foto" src="img/fotoComments2.png" alt="foto">
+  
+  <div class="comments-text"><span>Ирина Пименова</span><span class="comments-data">16:25, 21 ноября 2020 </span>
+    <div class="comment-message">Dictumst rhoncus a mattis dui ac scelerisque diam mauris suspendisse. Molestie arcu ac enimmattis dui ac sc.  </div></div>
+
+
+
+</div>
+<div class="coments-users">
+<div class="user-on">
+
+  <img class="user-foto" src="img/fotoComments3.png" alt="foto">
+  <div class=" mark"></div></div>
+  <div class="comments-text"><span>Марина Иванова</span><span class="comments-data">16:35, 21 ноября 2020 </span>
+    <div class="comment-message">Molestie arcu ac enimmattis dui ac sc.  </div></div>
+
+
+
+</div>
+
+<a  href="#"class="show-link"><div class="show"
+  >Показать ещё </div></a>
+  <div class="pages-block">
+  <div class="pages"> <div class="page active-page">
+    <a  class="page-link active-link" href="#" >1</a>
+  </div>
+  <div class="page">
+    <a class="page-link" href="#" >2</a>
+  </div>
+  <div class="page">
+    <a class="page-link" href="#" >3</a>
+  </div>
+ 
+    <div class="page1"><a class="page-link" href="#" >Вперед<img class="page-img" src="img/icon3.png" alt="icon"></a></div>
+    
+ </div>
+  <span class="pages-block-text" >Показано 50 из 242 заданий</span>
+
+
+
+            </div>
 
           </div>
         <!-- /.content -->
@@ -424,5 +580,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -47,7 +47,7 @@
           /></a>
           <div class="counter message">18</div>
           <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
-            <div class="mark"></div></div>
+            <div class="mark "></div></div>
           <span class="name">Кристина Анфалова</span>
           <button class="button-sub-menu">
             <img src="img/icon3.png" alt="" />
@@ -313,16 +313,56 @@
                   <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Рекламодатель</span></label></div>
                 </form> 
             </div><!-- /.block-form -->
-          
+            <button class="button2 button-form">
+            Сохранить
+          </button>
           
            
           </div><!--registration--> 
-  <button class="button2 button-form">
-            Сохранить
-          </button>
-         
+
+         <!--МОДАЛЬНОЕ ОКНО 1-->
+         <div class="modal is-open" id='modal_setting'>
+          <div class="modal-dialog">
+            <button class="modal-dialog-button" onClick="none_menu('modal_setting');">
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 1L1 9" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9 9L1 1" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+              </button>
+              <h1 class="modal-title">Продление подписки</h1>
+              <div class="subscription">
+                
+                <div class="price">
+                  <span class="price-item">Цена 1 дня подписки</span><br>
+                  <span class="price-item2">50 ₽</span>
+                </div>
+                <div class="price-text">Укажите количество дней, на которое вы хотите продлить <br>подписку аккаунта.</div>
+                
+              </div>
+              
+            <div class="slader">
+              <div><img  class="slade-left" src="img/icon3.png" alt="icon"></div>
+              <span class="subscription-day">20 дней</span>
+              <div> <img  class="slade-right" src="img/icon3.png" alt="icon"></div>
+            </div>
+                
+                
+              <span class="modal-price">Стоимость заказа:<span class="slader-text"> 1 000  ₽ </span></span>
+            <button class="button1 button-setting">
+              <img src="img/messageButton.png" alt="иконка" /><span
+                class="text-button"
+                >Отправить</span
+              >
+            </button></div>
+           
+          </div>
+          <!-- /.modal-dialog -->
+        </div><!--/.modal-->
         </div>
         <!-- /.content -->
+
+
       </section>
     </main>
     <footer class="footer">
@@ -385,5 +425,7 @@
         </div>
       </div>
     </footer>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
