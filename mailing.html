@@ -46,8 +46,10 @@
             ><img src="img/Message.jpg" alt="Сообщения" class="header-icon2"
           /></a>
           <div class="counter message">18</div>
-          <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
-            <div class="mark "></div></div>
+          <div class="user-on">
+            <img src="img/foto1.png" alt="Фото пользователя" class="foto" />
+            <div class="mark"></div>
+          </div>
           <span class="name">Кристина Анфалова</span>
           <button class="button-sub-menu">
             <img src="img/icon3.png" alt="" />
@@ -73,7 +75,7 @@
               <a class="ajax-site menu-link" href="#">Серфинг</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-sitemenu-link" href="#">Письма</a>
+              <a class="ajax-site menu-link" href="#">Письма</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Тесты</a>
@@ -142,13 +144,15 @@
           </div>
           <ul class="sub-profile">
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link active" href="profile.html">Мой профиль</a>
+              <a class="ajax-site menu-link" href="profile.html">Мой профиль</a>
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="statistics.html">Моя статистика</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="message.html">Мои сообщения</a>
+              <a class="ajax-site menu-link active" href="message.html"
+                >Мои сообщения</a
+              >
             </li>
             <li class="sub-menu-item">
               <a class="ajax-site menu-link" href="#">Мои достижения</a>
@@ -157,212 +161,139 @@
               <a class="ajax-site menu-link" href="status.html">Статусы</a>
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="history.html"
+              <a class="ajax-site menu-link" href="history.html"
                 >История операций</a
               >
             </li>
             <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="setting.html">Настройки</a>
+              <a class="ajax-site menu-link" href="setting.html">Настройки</a>
             </li>
           </ul>
         </aside>
+
         <div class="content">
           <ul class="tab-menu">
+            <li class="tab-item">
+              <a class="tab-link" href="message.html">Мои диалоги</a>
+            </li>
             <li class="tab-item tab-active">
-              <a class="tab-link" href="personalData.html">Личные данные</a>
-            </li>
-            <li class="tab-item"><a class="tab-link" href="finans.html">Финансы</a></li>
-            <li class="tab-item"><a class="tab-link" href="social.html">Соц.сети</a></li>
-            <li class="tab-item">
-              <a class="tab-link" href="notification.html">Оповещения</a>
+              <a class="tab-link" href="#">Рассылка</a>
             </li>
             <li class="tab-item">
-              <a class="tab-link" href="safety.html">Безопасность</a>
+              <a class="tab-link" href="message-black.html">Черный список</a>
             </li>
           </ul>
-          <div class="registration">
-            <div class="confirm">
-              <span class="confirm-text"
-                >Подтвердите ваш электронный адрес - письмо отправлено на
-                почту.</span
-              >
+
+          <div class="status">
+            <div class="status-item">
+              <a class="status-link" href="#">Скрыть описание</a>
+
+              <img class="icon-revers" src="img/icon3.png" alt="" />
             </div>
-            <div class="reguirement">
-              <div class="avatar">
-                <img
-                  class="avatar-img"
-                  src="img/avatar.png"
-                  alt="aватар иконка"
-                /><img class="avatar-img2" src="img/pain.png" alt="иконка" />
-              </div>
-              <!--avatar--><span class="footnote">*</span>
-              <p class="reguirement-text">
-                Картинка для аватара не должна превышать 210х185 пикселей и быть
-                не более 100 килобайт.<br />
-                Минимальный размер 60x60px.<br />
-                Принимаются картинки таких типов: gif, jpg, jpeg, png.
-              </p>
-              <!-- /.reguirement-text -->
-            </div>
-            <!--reguirement-->
-            <div class="block-form">
-              <form class="form-left">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Имя</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Имя"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
-
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Пол</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="Мужской"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="form-sub-menu " src="img/icon3.png"><label class="label"
-                  ><div class="question">?</div>
-
-                  E-mail</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="mail"
-                  placeholder="example@mail.ru"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><label class="label"
-                  ><div class="question">?</div>
-
-                  Номер телефона</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="phone"
-                  placeholder="+7 (900) 900-00-00"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                />
-                <div class="phone">
-                  <img class="form-img" src="img/icon3.png" alt="icon" />
-                  <a class="link-phone"
-                    href="#"
-                    
-                    >Подтвердить телефон</a
-                  >
-                </div>
-              </form>
-
-              <form class="form-right">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Фамилия</label
-                ><input
-                  class="input"
-                  type="text"
-                  name="name"
-                  placeholder="Фамилия"
-                  required
-                  maxlength="10"
-                  minlength="2"
-                  autocomplete="on"
-                />
-
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Дата рождения</label
-                ><input
-                  class="input"
-                  name=""
-                  type="text"
-                  placeholder="дд . мм . гггг"
-                  required
-                  maxlength="10"
-                  minlength="1"
-                  autocomplete="on"
-                /><img class="calendar" src="img/calendar.png">
-                <label class="label"
-                  ><div class="question">?</div>
-
-                  Геотаргетинг</label
-                >
-                <div class="radio">
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Реферал</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Исполнитель</span></label>
-                  <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Рекламодатель</span></label></div>
-                </form> 
-            </div><!-- /.block-form -->
-            <button class="button2 button-form">
-            Сохранить
-          </button>
-          
-           
-          </div><!--registration--> 
-
-         <!--МОДАЛЬНОЕ ОКНО 1-->
-         <div class="modal is-open" id='modal_setting'>
-          <div class="modal-dialog">
-            <button class="modal-dialog-button" onClick="none_menu('modal_setting');">
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 1L1 9" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M9 9L1 1" stroke="#17212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-              </button>
-              <h1 class="modal-title">Продление подписки</h1>
-              <div class="subscription">
-                
-                <div class="price">
-                  <span class="price-item">Цена 1 дня подписки</span><br>
-                  <span class="price-item2">50 ₽</span>
-                </div>
-                <div class="price-text">Укажите количество дней, на которое вы хотите продлить <br>подписку аккаунта.</div>
-                
-              </div>
-              
-            <div class="slader">
-              <div><img  class="slade-left" src="img/icon3.png" alt="icon"></div>
-              <span class="subscription-day">20 дней</span>
-              <div> <img  class="slade-right" src="img/icon3.png" alt="icon"></div>
-            </div>
-                
-                
-              <span class="modal-price">Стоимость заказа:<span class="slader-text"> 1 000  ₽ </span></span>
-            <button class="button1 button-setting">
-              <img src="img/messageButton.png" alt="иконка" /><span
-                class="text-button"
-                >Отправить</span
-              >
-            </button></div>
-           
+            <img class="status-img" src="img/mailing.png" alt="" />
+            <h2 class="status-title">Массовая рассылка писем</h2>
+            <p class="status-text">
+              Введите текст письма в поле ниже и выберите нужную Вам опцию для
+              отправки письма.
+            </p>
           </div>
-          <!-- /.modal-dialog -->
-        </div><!--/.modal-->
+
+          <div class="messages-blocks add-blocks">
+            <h1 class="add-title">Создать массовую рассылку писем</h1>
+
+            <form>
+              <label class="label"
+                ><div class="question">?</div>
+
+                Содержание письма<span>Осталось 3000 символов</span></label
+              ><textarea
+                class="input"
+                type="text"
+                name="text"
+                placeholder="Содержание письма"
+                cols="130"
+                rows="10"
+              ></textarea>
+
+              <div class="mailing-radio">
+                <label class="mailing-label">
+                  <input
+                    class="input radio-input"
+                    type="radio"
+                    name="time"
+                    value="yes"
+                  />
+                  <span class="radio-item"
+                    >Всем рефералам на внутреннюю почту (1 рефералов)</span
+                  >
+                </label>
+                <span class="mailing-summ">0.04 ₽</span>
+              </div>
+
+              <div class="mailing-radio">
+                <label class="mailing-label">
+                  <input
+                    class="input radio-input"
+                    type="radio"
+                    name="time"
+                    value="yes"
+                  />
+                  <span class="radio-item"
+                    >Активным рефералам (2 нед.) на внутреннюю почту (0 рефералов)</span
+                  >
+                </label>
+                <span class="mailing-summ">0 ₽</span>
+              </div><div class="mailing-radio">
+                <label class="mailing-label">
+                  <input
+                    class="input radio-input"
+                    type="radio"
+                    name="time"
+                    value="yes"
+                  />
+                  <span class="radio-item"
+                    >Всем кто добавил Ваши задания в Избранное (0 чел.)</span
+                  >
+                </label>
+                <span class="mailing-summ">0 ₽</span>
+              </div>
+
+              <div class="mailing-radio">
+                <label class="mailing-label">
+                  <input
+                    class="input radio-input"
+                    type="radio"
+                    name="time"
+                    value="yes"
+                  />
+                  <span class="radio-item"
+                    >Всем друзьям (0 чел.)</span
+                  >
+                </label>
+                <span class="mailing-summ">0 ₽</span>
+              </div>
+
+              <div class="mailing-radio">
+                <label class="mailing-label">
+                  <input
+                    class="input radio-input"
+                    type="radio"
+                    name="time"
+                    value="yes"
+                  />
+                  <span class="radio-item"
+                    >	Друзьям (активным 2 нед.) (0 чел.)</span
+                  >
+                </label>
+                <span class="mailing-summ">0 ₽</span>
+              </div>
+            </form>
+
+            <a class="mailing-payment" href="">Оплатить массовую рассылку</a>
+            <!-- /.block-form -->
+          </div>
         </div>
         <!-- /.content -->
-
-
       </section>
     </main>
     <footer class="footer">
@@ -425,7 +356,11 @@
         </div>
       </div>
     </footer>
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
   </body>
 </html>
