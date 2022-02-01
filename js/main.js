@@ -9,3 +9,13 @@ function none_menu(id) {
 
    
   
+   function rewers(id) {
+      if ($ ('#'+id).css('display') == "none") {
+         $ ('#'+id).css('display', '');
+         }
+    
+      else {
+         $ ('#'+id).css('transform', 'rotate(180deg)');}
+         return false;
+      }
+   
