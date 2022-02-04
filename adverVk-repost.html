@@ -1,494 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>account</title>
-    <link href="css/styleProfile.css" type="text/css" rel="stylesheet" />
-    <link href="css/normalize.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="conteiner">
-        <a href="#" class="logo">
-          <img width="107" src="img/logo.jpg" alt="Логотип Adwork" />
-        </a>
-        <div class="support">
-          <img src="img/support.jpg" alt="помощь" class="support-img" />
-          <a href="help-baz.html" class="header-link"><span>Помощь</span> </a>
-        </div>
-        <div class="header-centr">
-          <div class="wallet">
-            <img width="16" src="img/wallet.png" alt="Кошелек" />
-            <span class="wallet-text">200 000 ₽</span>
-          </div>
-          <!--wallet-->
-          <div class="progress">
-            <div class="progress-bar1"></div>
-            <div class="progress-bar2">
-              <img width="16" src="img/icon2.png" alt="Рейтинг" />
-              <span class="progress-text">100 000 / Бригадир</span>
-            </div>
-          </div>
 
-          <!--progress-->
-          <span class="header-text"
-            >Срок действия подписки:<br />осталось 5 дней</span
-          >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>account</title>
+  <link href="css/styleProfile.css" type="text/css" rel="stylesheet" />
+  <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="conteiner">
+      <a href="#" class="logo">
+        <img width="107" src="img/logo.jpg" alt="Логотип Adwork" />
+      </a>
+      <div class="support">
+        <img src="img/support.jpg" alt="помощь" class="support-img" />
+        <a href="help-baz.html" class="header-link"><span>Помощь</span> </a>
+      </div>
+      <div class="header-centr">
+        <div class="wallet">
+          <img width="16" src="img/wallet.png" alt="Кошелек" />
+          <span class="wallet-text">200 000 ₽</span>
         </div>
-        <div class="account">
-          <a href="#"
-            ><img src="img/icon1.jpg" alt="Уведомления" class="header-icon1"
-          /></a>
-          <div class="counter notify">2</div>
-          <a href="#"
-            ><img src="img/Message.jpg" alt="Сообщения" class="header-icon2"
-          /></a>
-          <div class="counter message">18</div>
-          <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
-            <div class="mark "></div></div>
-          <span class="name">Кристина Анфалова</span>
-          <button class="button-sub-menu">
-            <img src="img/icon3.png" alt="" />
+        <!--wallet-->
+        <div class="progress">
+          <div class="progress-bar1"></div>
+          <div class="progress-bar2">
+            <img width="16" src="img/icon2.png" alt="Рейтинг" />
+            <span class="progress-text">100 000 / Бригадир</span>
+          </div>
+        </div>
+
+        <!--progress-->
+        <span class="header-text">Срок действия подписки:<br />осталось 5 дней</span>
+      </div>
+      <div class="account">
+        <a href="#"><img src="img/icon1.jpg" alt="Уведомления" class="header-icon1" /></a>
+        <div class="counter notify">2</div>
+        <a href="#"><img src="img/Message.jpg" alt="Сообщения" class="header-icon2" /></a>
+        <div class="counter message">18</div>
+        <div class="user-on"><img src="img/foto1.png" alt="Фото пользователя" class="foto" />
+          <div class="mark "></div>
+        </div>
+        <span class="name">Кристина Анфалова</span>
+        <button class="button-sub-menu">
+          <img src="img/icon3.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <!-- /.container -->
+  </header>
+  <main class="main">
+    <section class="section conteiner">
+      <aside class="aside">
+
+        <div class="aside-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <a class=" link-back" href="#">Рекламодателю</a>
+        </div>
+        <div class="menu menu-activ">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.5978 15.7692H14.0337C13.5666 15.7692 13.1875 15.3902 13.1875 14.9231V9.84615C13.1875 9.37908 13.5666 9 14.0337 9H14.5978C16.5721 9 17.7003 10.328 17.7003 12.3846C17.7003 14.4412 16.5721 15.7692 14.5978 15.7692ZM14.3157 10.1282V14.641C15.2487 14.641 16.5721 14.0769 16.5721 12.3846C16.5721 10.6923 15.2487 10.1282 14.3157 10.1282Z"
+              fill="white" />
+            <path
+              d="M10.6479 15.7692C10.1809 15.7692 10.0838 15.3902 10.0838 14.9231V11.2564C10.0838 10.9462 9.86576 10.1282 8.95563 10.1282C8.04549 10.1282 7.826 10.9462 7.826 11.2564V14.9231C7.826 15.3902 7.7304 15.7692 7.26332 15.7692C6.79625 15.7692 6.69922 15.3902 6.69922 14.9231V11.2564C6.69922 10.012 7.71122 9 8.95563 9C10.2 9 11.212 10.012 11.212 11.2564V14.9231C11.212 15.3902 11.115 15.7692 10.6479 15.7692Z"
+              fill="white" />
+            <path
+              d="M10.3659 13.513H7.54537C7.0783 13.513 6.69922 13.2603 6.69922 12.9489C6.69922 12.6375 7.0783 12.3848 7.54537 12.3848H10.3659C10.833 12.3848 11.212 12.6375 11.212 12.9489C11.212 13.2603 10.833 13.513 10.3659 13.513Z"
+              fill="white" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M16.6857 2H7.31429C4.04762 2 2 4.31208 2 7.58516V16.4148C2 19.6879 4.0381 22 7.31429 22H16.6857C19.9619 22 22 19.6879 22 16.4148V7.58516C22 4.31208 19.9619 2 16.6857 2Z"
+              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+          <span class="aside-text">Разместить рекламу</span><button id="button2" onClick="none_menu('sub-menu2');"
+            class="button-sub-menu">
+            <svg onClick="rewers('button2');" width="10" height="6" viewBox="0 0 10 6" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 5L5 1L9 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
           </button>
         </div>
-      </div>
-      <!-- /.container -->
-    </header>
-    <main class="main">
-      <section class="section conteiner"> 
-        <aside class="aside">
-      
-          <div class="aside-item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <a class=" link-back"
-        href="#">Рекламодателю</a></div> 
-          <div class="menu menu-activ">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14.5978 15.7692H14.0337C13.5666 15.7692 13.1875 15.3902 13.1875 14.9231V9.84615C13.1875 9.37908 13.5666 9 14.0337 9H14.5978C16.5721 9 17.7003 10.328 17.7003 12.3846C17.7003 14.4412 16.5721 15.7692 14.5978 15.7692ZM14.3157 10.1282V14.641C15.2487 14.641 16.5721 14.0769 16.5721 12.3846C16.5721 10.6923 15.2487 10.1282 14.3157 10.1282Z" fill="white"/>
-              <path d="M10.6479 15.7692C10.1809 15.7692 10.0838 15.3902 10.0838 14.9231V11.2564C10.0838 10.9462 9.86576 10.1282 8.95563 10.1282C8.04549 10.1282 7.826 10.9462 7.826 11.2564V14.9231C7.826 15.3902 7.7304 15.7692 7.26332 15.7692C6.79625 15.7692 6.69922 15.3902 6.69922 14.9231V11.2564C6.69922 10.012 7.71122 9 8.95563 9C10.2 9 11.212 10.012 11.212 11.2564V14.9231C11.212 15.3902 11.115 15.7692 10.6479 15.7692Z" fill="white"/>
-              <path d="M10.3659 13.513H7.54537C7.0783 13.513 6.69922 13.2603 6.69922 12.9489C6.69922 12.6375 7.0783 12.3848 7.54537 12.3848H10.3659C10.833 12.3848 11.212 12.6375 11.212 12.9489C11.212 13.2603 10.833 13.513 10.3659 13.513Z" fill="white"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6857 2H7.31429C4.04762 2 2 4.31208 2 7.58516V16.4148C2 19.6879 4.0381 22 7.31429 22H16.6857C19.9619 22 22 19.6879 22 16.4148V7.58516C22 4.31208 19.9619 2 16.6857 2Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              
-            <span class="aside-text" >Разместить рекламу</span
-            ><button id="button2" onClick="none_menu('sub-menu2');" class="button-sub-menu">
-              <svg onClick="rewers('button2');" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 5L5 1L9 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-            </button>
-          </div>
-          <ul id='sub-menu2' class="sub-menu">
-            <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="adverSerf.html">Серфинг</a>
-            </li>
-            <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="adverContecst.html">Контекстная реклама</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverLetter.html">Рекламные письма</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverFrame.html">Реклама во фрейме</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link " href="adverTest.html">Тесты</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link active" href="#">Вконтакте</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverStat.html">Статические ссылки</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverBanner.html">Баннеры</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverCatalog.html">Каталог сайтов</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverTask.html">Задания</a>
-            </li>  <li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverYoutube.html">YouTube</a>
-            </li><li class="sub-menu-item">
-              <a class="ajax-site menu-link" href="adverAdd.html">Текстовое объявление</a>
-            </li> 
-          </ul>
-         <div class="menu menu-activ">
+        <ul id='sub-menu2' class="sub-menu">
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link " href="adverSerf.html">Серфинг</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link " href="adverContecst.html">Контекстная реклама</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverLetter.html">Рекламные письма</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverFrame.html">Реклама во фрейме</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link " href="adverTest.html">Тесты</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link active" href="#">Вконтакте</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverStat.html">Статические ссылки</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverBanner.html">Баннеры</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverCatalog.html">Каталог сайтов</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverTask.html">Задания</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverYoutube.html">YouTube</a>
+          </li>
+          <li class="sub-menu-item">
+            <a class="ajax-site menu-link" href="adverAdd.html">Текстовое объявление</a>
+          </li>
+        </ul>
+        <div class="menu menu-activ">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14.5978 15.7692H14.0337C13.5666 15.7692 13.1875 15.3902 13.1875 14.9231V9.84615C13.1875 9.37908 13.5666 9 14.0337 9H14.5978C16.5721 9 17.7003 10.328 17.7003 12.3846C17.7003 14.4412 16.5721 15.7692 14.5978 15.7692ZM14.3157 10.1282V14.641C15.2487 14.641 16.5721 14.0769 16.5721 12.3846C16.5721 10.6923 15.2487 10.1282 14.3157 10.1282Z" fill="white"/>
-            <path d="M10.6479 15.7692C10.1809 15.7692 10.0838 15.3902 10.0838 14.9231V11.2564C10.0838 10.9462 9.86576 10.1282 8.95563 10.1282C8.04549 10.1282 7.826 10.9462 7.826 11.2564V14.9231C7.826 15.3902 7.7304 15.7692 7.26332 15.7692C6.79625 15.7692 6.69922 15.3902 6.69922 14.9231V11.2564C6.69922 10.012 7.71122 9 8.95563 9C10.2 9 11.212 10.012 11.212 11.2564V14.9231C11.212 15.3902 11.115 15.7692 10.6479 15.7692Z" fill="white"/>
-            <path d="M10.3659 13.513H7.54537C7.0783 13.513 6.69922 13.2603 6.69922 12.9489C6.69922 12.6375 7.0783 12.3848 7.54537 12.3848H10.3659C10.833 12.3848 11.212 12.6375 11.212 12.9489C11.212 13.2603 10.833 13.513 10.3659 13.513Z" fill="white"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6857 2H7.31429C4.04762 2 2 4.31208 2 7.58516V16.4148C2 19.6879 4.0381 22 7.31429 22H16.6857C19.9619 22 22 19.6879 22 16.4148V7.58516C22 4.31208 19.9619 2 16.6857 2Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path
+              d="M14.5978 15.7692H14.0337C13.5666 15.7692 13.1875 15.3902 13.1875 14.9231V9.84615C13.1875 9.37908 13.5666 9 14.0337 9H14.5978C16.5721 9 17.7003 10.328 17.7003 12.3846C17.7003 14.4412 16.5721 15.7692 14.5978 15.7692ZM14.3157 10.1282V14.641C15.2487 14.641 16.5721 14.0769 16.5721 12.3846C16.5721 10.6923 15.2487 10.1282 14.3157 10.1282Z"
+              fill="white" />
+            <path
+              d="M10.6479 15.7692C10.1809 15.7692 10.0838 15.3902 10.0838 14.9231V11.2564C10.0838 10.9462 9.86576 10.1282 8.95563 10.1282C8.04549 10.1282 7.826 10.9462 7.826 11.2564V14.9231C7.826 15.3902 7.7304 15.7692 7.26332 15.7692C6.79625 15.7692 6.69922 15.3902 6.69922 14.9231V11.2564C6.69922 10.012 7.71122 9 8.95563 9C10.2 9 11.212 10.012 11.212 11.2564V14.9231C11.212 15.3902 11.115 15.7692 10.6479 15.7692Z"
+              fill="white" />
+            <path
+              d="M10.3659 13.513H7.54537C7.0783 13.513 6.69922 13.2603 6.69922 12.9489C6.69922 12.6375 7.0783 12.3848 7.54537 12.3848H10.3659C10.833 12.3848 11.212 12.6375 11.212 12.9489C11.212 13.2603 10.833 13.513 10.3659 13.513Z"
+              fill="white" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M16.6857 2H7.31429C4.04762 2 2 4.31208 2 7.58516V16.4148C2 19.6879 4.0381 22 7.31429 22H16.6857C19.9619 22 22 19.6879 22 16.4148V7.58516C22 4.31208 19.9619 2 16.6857 2Z"
+              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+
+
+          <span class="aside-text text-min">Управление рекламой</span><button id="button2"
+            onClick="none_menu('sub-menu2');" class="button-sub-menu">
+            <svg onClick="rewers('button2');" width="10" height="6" viewBox="0 0 10 6" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 5L5 1L9 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            
-                
-                
-              <span class="aside-text text-min" >Управление рекламой</span
-              ><button id="button2" onClick="none_menu('sub-menu2');" class="button-sub-menu">
-                <svg onClick="rewers('button2');" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 5L5 1L9 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+          </button>
+        </div>
+      </aside>
+      <div class="content">
+
+
+        <ul class="adver-tab">
+          <li class="tab-item ">
+            <a class="tab-link " href="adverVk-like.html">Лайки</a>
+
+          </li>
+          <li class="tab-item tab-active">
+            <a class="tab-link" href="adverVk-repost.html">Репосты</a>
+          </li>
+          <li class="tab-item ">
+            <a class="tab-link" href="#">Подписчики</a>
+          </li>
+
+
+        </ul>
+
+
+        <div class="block-adver-serf">
+          <div class="status adver-serf">
+            <div class="status-item">
+              <a class="status-link" href="#">Скрыть описание</a>
+
+              <img class="icon-revers" src="img/icon3.png" alt="" />
+            </div>
+            <h2 class="status-title">Репосты </h2>
+            <p class="status-text">
+              Репосты помогут увеличить охват вашего рекламного сообщения, фото, видео или группы Вконтакте, и поможет
+              привлечь новых подписчиков. <br>Если что то непонятно, прочтите <a href="#">Инструкцию</a>.
+            </p>
+          </div>
+
+          <div class="block-form form-contecst ">
+
+            <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                <path
+                  d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                  fill="#2787F5" />
+              </svg>
+
+              Название площадки</label>
+            <input class="input" name="" type="text" placeholder="Название площадки" required maxlength="10"
+              minlength="1" autocomplete="on" />
+            <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                <path
+                  d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                  fill="#2787F5" />
+              </svg>
+
+              Ссылка на страницу </label>
+
+            <p class="input input-menu link-copy ">Ссылка на страницу </p>
+            <svg class="img-link-vk " width="16" height="16" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.7">
+                <path
+                  d="M16 8.09375V13.5C16 14.8785 14.8785 16 13.5 16H2.5C1.12146 16 0 14.8785 0 13.5V2.5C0 1.12146 1.12146 0 2.5 0H7.9375C8.28271 0 8.5625 0.279785 8.5625 0.625C8.5625 0.970215 8.28271 1.25 7.9375 1.25H2.5C1.81079 1.25 1.25 1.81079 1.25 2.5V13.5C1.25 14.1892 1.81079 14.75 2.5 14.75H13.5C14.1892 14.75 14.75 14.1892 14.75 13.5V8.09375C14.75 7.74854 15.0298 7.46875 15.375 7.46875C15.7202 7.46875 16 7.74854 16 8.09375ZM8.5365 5.80579C8.54834 5.83032 8.56165 5.85425 8.57642 5.87695C8.62378 5.94983 8.73425 6.11707 8.85901 6.28833L6.80811 8.33923C6.56396 8.58337 6.56396 8.97913 6.80811 9.22314C6.93005 9.34521 7.09009 9.40625 7.25 9.40625C7.40991 9.40625 7.56995 9.34521 7.69189 9.22327L8.82349 8.09167C8.85034 8.14075 8.87634 8.19019 8.90051 8.23816C9.01257 8.47461 9.06934 8.71301 9.06934 8.94702C9.06934 9.58643 8.70398 10.2927 8.01233 10.9904L7.95471 11.0403C7.93188 11.0601 7.91052 11.0814 7.89075 11.1042L7.84106 11.1616C7.14282 11.8534 6.43665 12.2188 5.79761 12.2188C5.44519 12.2188 5.11926 12.1101 4.80261 11.887C4.79126 11.877 4.77954 11.8672 4.76758 11.8579L4.70679 11.8114C4.61646 11.7422 4.5271 11.6636 4.44128 11.5778C4.01819 11.1553 3.8125 10.7156 3.8125 10.2336C3.8125 9.59412 4.17798 8.88782 4.86963 8.19006L4.92737 8.14014C4.94995 8.12048 4.97119 8.09937 4.99072 8.07678L5.04065 8.01917C5.58789 7.47681 6.11829 7.13989 6.61743 7.0177C6.95264 6.93567 7.15796 6.59729 7.07581 6.26196C6.99377 5.92676 6.65552 5.72144 6.32019 5.80347C5.59143 5.98193 4.85864 6.43481 4.14197 7.15002C4.13123 7.16077 4.12085 7.17175 4.11096 7.18323L4.0752 7.22449L4.03394 7.26025C4.02246 7.27014 4.01135 7.28052 4.00073 7.29114C3.05981 8.23352 2.5625 9.25098 2.5625 10.2336C2.5625 11.0529 2.89746 11.8027 3.55798 12.4623C3.68225 12.5864 3.81287 12.7012 3.94629 12.8035L3.96643 12.8188C3.98413 12.8354 4.00293 12.8511 4.02258 12.8655C4.56628 13.2659 5.16345 13.4688 5.79761 13.4688C6.77966 13.4688 7.79712 12.9714 8.73999 12.0306C8.75085 12.0198 8.76123 12.0085 8.77124 11.9969L8.80664 11.9561L8.84778 11.9205C8.85925 11.9105 8.87048 11.9001 8.88123 11.8894C9.82202 10.947 10.3193 9.92957 10.3193 8.94702C10.3193 8.52332 10.2206 8.10181 10.0259 7.69421C10.0243 7.6908 10.0227 7.68738 10.021 7.68408C9.97693 7.59595 9.86963 7.38794 9.73767 7.17737L11.7544 5.16064C11.9984 4.91663 11.9984 4.52087 11.7544 4.27673C11.5103 4.03271 11.1145 4.03271 10.8705 4.27673L9.75586 5.39136C9.71863 5.33752 9.68188 5.28308 9.64783 5.23157C9.54504 5.00513 9.49304 4.77698 9.49304 4.55286C9.49304 3.91345 9.85852 3.20728 10.55 2.50952L10.6078 2.45959C10.6306 2.43982 10.652 2.41858 10.6716 2.39575L10.7212 2.33826C11.4196 1.64661 12.1259 1.28113 12.7648 1.28113C13.1172 1.28113 13.4432 1.38977 13.7599 1.61304C13.7712 1.62305 13.7828 1.63269 13.7949 1.64197L13.8556 1.68848C13.9458 1.75769 14.0352 1.8363 14.1212 1.92212C14.5443 2.3446 14.75 2.7843 14.75 3.26636C14.75 3.90576 14.3845 4.61206 13.6929 5.30981L13.6351 5.35986C13.6125 5.37939 13.5913 5.40063 13.5718 5.42322L13.522 5.48071C12.9852 6.01208 12.4392 6.34082 11.8989 6.45789C11.5616 6.53088 11.3473 6.86365 11.4204 7.20093C11.4838 7.49377 11.7428 7.69373 12.0306 7.69373C12.0745 7.69373 12.1189 7.68921 12.1635 7.67944C12.947 7.50989 13.7064 7.0625 14.4207 6.34985C14.4314 6.33923 14.4417 6.32812 14.4517 6.31665L14.4873 6.27539L14.5287 6.23962C14.54 6.22974 14.5511 6.21936 14.5618 6.20874C15.5027 5.26648 16 4.24902 16 3.26636C16 2.44714 15.665 1.69727 15.0045 1.03772C14.8801 0.913452 14.7495 0.798706 14.6162 0.696533L14.5959 0.680908C14.5782 0.664429 14.5594 0.648926 14.5399 0.634521C13.9963 0.234131 13.399 0.0311279 12.7649 0.0311279C11.783 0.0311279 10.7655 0.528442 9.82251 1.46936C9.81177 1.4801 9.80127 1.49133 9.79126 1.50293L9.75586 1.54395L9.7146 1.57959C9.70312 1.58948 9.69202 1.59985 9.68127 1.6106C8.74048 2.55286 8.24316 3.57043 8.24316 4.55298C8.24316 4.97668 8.3418 5.39819 8.5365 5.80579Z"
+                  fill="#727384" />
+              </g>
+            </svg>
+          </div>
+
+
+          <hr>
+
+          <div class="block-form-adver">
+            <a class="blue-link" href="#"><svg class="svg-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="1" y1="5.85742" x2="11" y2="5.85742" stroke="#2787F5" stroke-width="2"
+                  stroke-linecap="round" />
+                <line x1="6.14453" y1="1" x2="6.14453" y2="11" stroke="#2787F5" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>Дополнительные настройки</a>
+
+            <div class="block-none">
+
+              <div class="setting-links">
+                <span class="setting-link"> <svg class="svg-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line x1="1" y1="5.85742" x2="11" y2="5.85742" stroke="#293A4C" stroke-width="2"
+                      stroke-linecap="round" />
+                    <line x1="6.14453" y1="1" x2="6.14453" y2="11" stroke="#293A4C" stroke-width="2"
+                      stroke-linecap="round" />
                   </svg>
-                  
+
+                  Дополнительные настройки</span><span class="setting-link link-grey"><svg class="svg-icon" width="20"
+                    height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.19922 5.33496V14.935" stroke="#293A4C" stroke-width="1.6" stroke-linecap="round" />
+                    <path d="M2 12.1406L5.2 15.3406L8.4 12.1406" stroke="#293A4C" stroke-width="1.6"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M18 8.45996L14.8 5.25996L11.6 8.45996" stroke="#293A4C" stroke-width="1.6"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M14.8008 15.3418L14.8008 5.7418" stroke="#293A4C" stroke-width="1.6"
+                      stroke-linecap="round" />
+                  </svg>
+                  Скрыть настройки</span>
+
+                <span class="setting-link link-grey"> <svg class="svg-icon" width="20" height="20" viewBox="0 0 20 20"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="5.75796" y1="5.65723" x2="14.2432" y2="14.1425" stroke="#293A4C" stroke-width="2"
+                      stroke-linecap="round" />
+                    <line x1="14.2422" y1="5.65542" x2="5.75691" y2="14.1407" stroke="#293A4C" stroke-width="2"
+                      stroke-linecap="round" />
+                  </svg>
+                  Сбросить настройки
+                </span>
+              </div>
+
+              <div class="block-form">
+                <form class="form-left">
+                  <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                      <path
+                        d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                        fill="#2787F5" />
+                    </svg>
+
+                    Количество друзей Вконтакте от</label>
+                  <input class="input" name="" type="text" placeholder="0" required maxlength="10" minlength="1"
+                    autocomplete="on" />
+
+                  <div class="input-menu">
+                    <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                        <path
+                          d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                          fill="#2787F5" />
+                      </svg>
+
+                      По рейтингу пользователя</label>
+
+                    <p class="input ">(0 - без ограничений)</p>
+                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="input-menu"> <label class="label input-menu"><svg class="question" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                        <path
+                          d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                          fill="#2787F5" />
+                      </svg>
+
+                      По половому признаку</label>
+
+                    <p class="input ">По половому признаку </p>
+                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+
+                  </div>
+
+
+                  <div class="input-menu">
+                    <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                        <path
+                          d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                          fill="#2787F5" />
+                      </svg>
+
+                      Выделить цветом</label>
+
+                    <p class="input ">Нет</p>
+                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+
+                  <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                      <path
+                        d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                        fill="#2787F5" />
+                    </svg>
+
+                    Геотаргетинг</label>
+                  <div class="radio">
+                    <label class="radio-label"><input class="input radio-input" type="radio" name="time"
+                        value="yes" /><span>Разрешены любые страны</span></label>
+                    <label class="radio-label"><input class="input radio-input" type="radio" name="time"
+                        value="yes" /><span>Только отмеченные</span></label>
+                  </div>
+                </form>
+
+                <form class="form-right">
+                  <div class="input-menu">
+                    <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                        <path
+                          d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                          fill="#2787F5" />
+                      </svg>
+
+                      Интервал последовательной раздачи</label>
+
+                    <p class="input ">Без интервала</p>
+                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                      <path
+                        d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                        fill="#2787F5" />
+                    </svg>
+
+                    По возрасту</label>
+                  <div class="age-block">
+
+                    <div class="before">
+                      <p class="input input-menu ">от </p>
+                      <svg class="img-age" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <div class="after">
+                      <p class="input input-menu ">до </p>
+                      <svg class="img-age" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="input-menu">
+                    <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                        <path
+                          d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                          fill="#2787F5" />
+                      </svg>
+
+                      По дате регистрации</label>
+
+                    <p class="input ">Любая дата регистрации</p>
+                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+
+                  <div class="input-menu">
+                    <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                        <path
+                          d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                          fill="#2787F5" />
+                      </svg>
+
+                      Разместить в VIP блоке</label>
+
+                    <p class="input ">Нет</p>
+                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+
+                </form>
+              </div><!-- /.block-form -->
+              <hr>
+
+
+
+            </div>
+            <div class="menu-form-adver">
+              <label class="label "><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
+                  <path
+                    d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z"
+                    fill="#2787F5" />
+                </svg>
+
+                Стоимость 1 вступления:</label> <span class="text-green">0.2 ₽</span>
+
+              <button class="button1 button-form">
+                + Создать
               </button>
             </div>
-        </aside>
-        <div class="content">
-         
 
-          <ul class="adver-tab">
-            <li class="tab-item ">
-              <a class="tab-link " href="adverVk-like.html">Лайки</a>
-             
-            </li>
-            <li class="tab-item tab-active">
-              <a class="tab-link" href="adverVk-repost.html">Репосты</a> 
-            </li>
-            <li class="tab-item ">
-              <a class="tab-link" href="#">Подписчики</a> 
-            </li>
-           
-              
-          </ul>
+          </div>
 
-
-          <div class="block-adver-serf">
-            <div class="status adver-serf">
-              <div class="status-item">
-                <a class="status-link" href="#">Скрыть описание</a>
-  
-                <img class="icon-revers" src="img/icon3.png" alt="" />
-              </div>
-                         <h2 class="status-title">Репосты   </h2>
-              <p class="status-text">
-                Репосты помогут увеличить охват вашего рекламного сообщения, фото, видео или группы Вконтакте, и поможет привлечь новых подписчиков. <br>Если что то непонятно, прочтите  <a href="#">Инструкцию</a>.
-              </p>
-            </div>
-           
-            <div class="block-form form-contecst "> 
-              
-              <label class="label"
-              ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-                <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-                </svg>
-
-                Название площадки</label
-            >
-            <input
-            class="input"
-            name=""
-            type="text"
-            placeholder="Название площадки"
-            required
-            maxlength="10"
-            minlength="1"
-            autocomplete="on"
-          />       
-<label class="label "
-  ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-    <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-    </svg>
-
-    Ссылка на страницу </label
->   
- 
-    <p class="input input-menu link-copy ">Ссылка на страницу </p>           
-    <svg class="img-link-vk " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g opacity="0.7">
-      <path d="M16 8.09375V13.5C16 14.8785 14.8785 16 13.5 16H2.5C1.12146 16 0 14.8785 0 13.5V2.5C0 1.12146 1.12146 0 2.5 0H7.9375C8.28271 0 8.5625 0.279785 8.5625 0.625C8.5625 0.970215 8.28271 1.25 7.9375 1.25H2.5C1.81079 1.25 1.25 1.81079 1.25 2.5V13.5C1.25 14.1892 1.81079 14.75 2.5 14.75H13.5C14.1892 14.75 14.75 14.1892 14.75 13.5V8.09375C14.75 7.74854 15.0298 7.46875 15.375 7.46875C15.7202 7.46875 16 7.74854 16 8.09375ZM8.5365 5.80579C8.54834 5.83032 8.56165 5.85425 8.57642 5.87695C8.62378 5.94983 8.73425 6.11707 8.85901 6.28833L6.80811 8.33923C6.56396 8.58337 6.56396 8.97913 6.80811 9.22314C6.93005 9.34521 7.09009 9.40625 7.25 9.40625C7.40991 9.40625 7.56995 9.34521 7.69189 9.22327L8.82349 8.09167C8.85034 8.14075 8.87634 8.19019 8.90051 8.23816C9.01257 8.47461 9.06934 8.71301 9.06934 8.94702C9.06934 9.58643 8.70398 10.2927 8.01233 10.9904L7.95471 11.0403C7.93188 11.0601 7.91052 11.0814 7.89075 11.1042L7.84106 11.1616C7.14282 11.8534 6.43665 12.2188 5.79761 12.2188C5.44519 12.2188 5.11926 12.1101 4.80261 11.887C4.79126 11.877 4.77954 11.8672 4.76758 11.8579L4.70679 11.8114C4.61646 11.7422 4.5271 11.6636 4.44128 11.5778C4.01819 11.1553 3.8125 10.7156 3.8125 10.2336C3.8125 9.59412 4.17798 8.88782 4.86963 8.19006L4.92737 8.14014C4.94995 8.12048 4.97119 8.09937 4.99072 8.07678L5.04065 8.01917C5.58789 7.47681 6.11829 7.13989 6.61743 7.0177C6.95264 6.93567 7.15796 6.59729 7.07581 6.26196C6.99377 5.92676 6.65552 5.72144 6.32019 5.80347C5.59143 5.98193 4.85864 6.43481 4.14197 7.15002C4.13123 7.16077 4.12085 7.17175 4.11096 7.18323L4.0752 7.22449L4.03394 7.26025C4.02246 7.27014 4.01135 7.28052 4.00073 7.29114C3.05981 8.23352 2.5625 9.25098 2.5625 10.2336C2.5625 11.0529 2.89746 11.8027 3.55798 12.4623C3.68225 12.5864 3.81287 12.7012 3.94629 12.8035L3.96643 12.8188C3.98413 12.8354 4.00293 12.8511 4.02258 12.8655C4.56628 13.2659 5.16345 13.4688 5.79761 13.4688C6.77966 13.4688 7.79712 12.9714 8.73999 12.0306C8.75085 12.0198 8.76123 12.0085 8.77124 11.9969L8.80664 11.9561L8.84778 11.9205C8.85925 11.9105 8.87048 11.9001 8.88123 11.8894C9.82202 10.947 10.3193 9.92957 10.3193 8.94702C10.3193 8.52332 10.2206 8.10181 10.0259 7.69421C10.0243 7.6908 10.0227 7.68738 10.021 7.68408C9.97693 7.59595 9.86963 7.38794 9.73767 7.17737L11.7544 5.16064C11.9984 4.91663 11.9984 4.52087 11.7544 4.27673C11.5103 4.03271 11.1145 4.03271 10.8705 4.27673L9.75586 5.39136C9.71863 5.33752 9.68188 5.28308 9.64783 5.23157C9.54504 5.00513 9.49304 4.77698 9.49304 4.55286C9.49304 3.91345 9.85852 3.20728 10.55 2.50952L10.6078 2.45959C10.6306 2.43982 10.652 2.41858 10.6716 2.39575L10.7212 2.33826C11.4196 1.64661 12.1259 1.28113 12.7648 1.28113C13.1172 1.28113 13.4432 1.38977 13.7599 1.61304C13.7712 1.62305 13.7828 1.63269 13.7949 1.64197L13.8556 1.68848C13.9458 1.75769 14.0352 1.8363 14.1212 1.92212C14.5443 2.3446 14.75 2.7843 14.75 3.26636C14.75 3.90576 14.3845 4.61206 13.6929 5.30981L13.6351 5.35986C13.6125 5.37939 13.5913 5.40063 13.5718 5.42322L13.522 5.48071C12.9852 6.01208 12.4392 6.34082 11.8989 6.45789C11.5616 6.53088 11.3473 6.86365 11.4204 7.20093C11.4838 7.49377 11.7428 7.69373 12.0306 7.69373C12.0745 7.69373 12.1189 7.68921 12.1635 7.67944C12.947 7.50989 13.7064 7.0625 14.4207 6.34985C14.4314 6.33923 14.4417 6.32812 14.4517 6.31665L14.4873 6.27539L14.5287 6.23962C14.54 6.22974 14.5511 6.21936 14.5618 6.20874C15.5027 5.26648 16 4.24902 16 3.26636C16 2.44714 15.665 1.69727 15.0045 1.03772C14.8801 0.913452 14.7495 0.798706 14.6162 0.696533L14.5959 0.680908C14.5782 0.664429 14.5594 0.648926 14.5399 0.634521C13.9963 0.234131 13.399 0.0311279 12.7649 0.0311279C11.783 0.0311279 10.7655 0.528442 9.82251 1.46936C9.81177 1.4801 9.80127 1.49133 9.79126 1.50293L9.75586 1.54395L9.7146 1.57959C9.70312 1.58948 9.69202 1.59985 9.68127 1.6106C8.74048 2.55286 8.24316 3.57043 8.24316 4.55298C8.24316 4.97668 8.3418 5.39819 8.5365 5.80579Z" fill="#727384"/>
-      </g>
-      </svg>
- </div>
-
-                
-<hr>
-    
-<div class="block-form-adver">
-<a class="blue-link" href="#"><svg class="svg-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <line x1="1" y1="5.85742" x2="11" y2="5.85742" stroke="#2787F5" stroke-width="2" stroke-linecap="round"/>
-  <line x1="6.14453" y1="1" x2="6.14453" y2="11" stroke="#2787F5" stroke-width="2" stroke-linecap="round"/>
-  </svg>Дополнительные настройки</a>
-  
-<div class="block-none">
-
-  <div class="setting-links">
- <span class="setting-link"> <svg class="svg-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <line x1="1" y1="5.85742" x2="11" y2="5.85742" stroke="#293A4C" stroke-width="2" stroke-linecap="round"/>
-    <line x1="6.14453" y1="1" x2="6.14453" y2="11" stroke="#293A4C" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-    
-Дополнительные настройки</span><span class="setting-link link-grey"><svg class="svg-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M5.19922 5.33496V14.935" stroke="#293A4C" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M2 12.1406L5.2 15.3406L8.4 12.1406" stroke="#293A4C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 8.45996L14.8 5.25996L11.6 8.45996" stroke="#293A4C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M14.8008 15.3418L14.8008 5.7418" stroke="#293A4C" stroke-width="1.6" stroke-linecap="round"/>
-  </svg>
-  Скрыть настройки</span>
-
- <span class="setting-link link-grey"> <svg class="svg-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <line x1="5.75796" y1="5.65723" x2="14.2432" y2="14.1425" stroke="#293A4C" stroke-width="2" stroke-linecap="round"/>
-    <line x1="14.2422" y1="5.65542" x2="5.75691" y2="14.1407" stroke="#293A4C" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-    Сбросить настройки
-</span>
-</div>
-
-<div class="block-form">
-  <form class="form-left">
-    <label class="label"
-    ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-      <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-      </svg>
-
-      Количество друзей Вконтакте от</label
-  >
-  <input
-  class="input"
-  name=""
-  type="text"
-  placeholder="0"
-  required
-  maxlength="10"
-  minlength="1"
-  autocomplete="on"
-/>       
-    
-   <div class="input-menu">
-  <label class="label "
-      ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-        <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-        </svg>
-
-        По рейтингу пользователя</label
-    >
-    
-      <p class="input ">(0 - без ограничений)</p>           
-      <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-   </div> 
-   <div class="input-menu">  <label class="label input-menu"
-      ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-        <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-        </svg>
-
-        По половому признаку</label
-    >
-    
-      <p class="input ">По половому признаку </p>           
-      <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-
-</div>
-     
-      
-    <div class="input-menu">
-      <label class="label "
-          ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-            <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-            </svg>
-    
-            Выделить цветом</label
-        >
-        
-          <p class="input ">Нет</p>           
-          <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-       </div> 
-
-       <label class="label"
-       ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-         <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-         <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-         </svg>
-
-       Геотаргетинг</label
-     >
-     <div class="radio">
-       <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Разрешены любые страны</span></label>
-       <label class="radio-label"><input class="input radio-input" type="radio" name="time" value="yes" /><span>Только отмеченные</span></label>
-       </div>
-  </form>
-
-  <form class="form-right">
-    <div class="input-menu">
-      <label class="label "
-          ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-            <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-            </svg>
-    
-            Интервал последовательной раздачи</label
-        >
-        
-          <p class="input ">Без интервала</p>           
-          <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-       </div> 
-       <label class="label"
-       ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-         <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-         <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-         </svg>
- 
-         По возрасту</label
-     >
-     <div class="age-block">
-       
-       <div class="before">
-       <p class="input input-menu ">от </p>           
-       <svg class="img-age" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-       <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-       </svg>
-       </div>
- <div class="after">
-       <p class="input input-menu ">до </p>           
-       <svg class="img-age" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-       <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-       </svg> 
-     </div>
-     </div>
-       <div class="input-menu">
-        <label class="label "
-            ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-              <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-              </svg>
-      
-              По дате регистрации</label
-          >
-          
-            <p class="input ">Любая дата регистрации</p>           
-            <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-         </div> 
-
-         <div class="input-menu">
-          <label class="label "
-              ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-                <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-                </svg>
-        
-                Разместить в VIP блоке</label
-            >
-            
-              <p class="input ">Нет</p>           
-              <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-           </div> 
-
-    </form> 
-</div><!-- /.block-form -->
- <hr>
-
-
-
-</div>
-<div class="menu-form-adver">
-  <label class="label "
-      ><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC"/>
-        <path d="M12.0325 6.99C12.9285 6.99 13.6239 7.23733 14.1185 7.732C14.6132 8.21733 14.8605 8.84733 14.8605 9.622C14.8605 10.3967 14.5245 11.1107 13.8525 11.764C13.8245 11.792 13.7405 11.8667 13.6005 11.988C13.4699 12.1093 13.3859 12.1933 13.3485 12.24C13.3205 12.2773 13.2552 12.352 13.1525 12.464C13.0499 12.5667 12.9799 12.6553 12.9425 12.73C12.9145 12.7953 12.8725 12.884 12.8165 12.996C12.7605 13.0987 12.7232 13.206 12.7045 13.318C12.6859 13.43 12.6765 13.5513 12.6765 13.682V13.92H10.9825V13.514C10.9825 13.3367 10.9919 13.1687 11.0105 13.01C11.0385 12.8513 11.0852 12.6973 11.1505 12.548C11.2252 12.3987 11.2812 12.2773 11.3185 12.184C11.3652 12.0907 11.4492 11.974 11.5705 11.834C11.6919 11.6847 11.7712 11.5867 11.8085 11.54C11.8552 11.4933 11.9532 11.3953 12.1025 11.246C12.2519 11.0967 12.3405 11.008 12.3685 10.98C12.8725 10.4947 13.1245 10.0653 13.1245 9.692C13.1245 9.37467 13.0265 9.12267 12.8305 8.936C12.6439 8.74 12.3639 8.642 11.9905 8.642C11.5985 8.642 11.2812 8.76333 11.0385 9.006C10.8052 9.24867 10.6885 9.566 10.6885 9.958H8.99454C8.99454 9.034 9.26054 8.31067 9.79254 7.788C10.3339 7.256 11.0805 6.99 12.0325 6.99ZM12.8025 15.054V17H10.8565V15.054H12.8025Z" fill="#2787F5"/>
-        </svg>
-
-        Стоимость 1 вступления:</label
-    > <span class="text-green">0.2 ₽</span>
-    
-     <button class="button1 button-form">
-      + Создать
-          </button>
-   </div>
-
-</div>
-    
         </div>
         <!-- /.content -->
 
 
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="conteiner">
-        <div class="market">
-          <img width="103" src="img/footerLogo.png" alt="Логотив биржи" />
-          <div class="footer-counter">
-            <div class="footer-counter-item">счетчик</div>
-            <div class="footer-counter-item">счетчик</div>
-            <div class="footer-counter-item">счетчик</div>
-          </div>
-
-          <p class="copyright">Copyright @ 2021 - Название сервиса</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="conteiner">
+      <div class="market">
+        <img width="103" src="img/footerLogo.png" alt="Логотив биржи" />
+        <div class="footer-counter">
+          <div class="footer-counter-item">счетчик</div>
+          <div class="footer-counter-item">счетчик</div>
+          <div class="footer-counter-item">счетчик</div>
         </div>
 
-        <div class="footer-nav-item">
-          <div class="footer-nav-block">
-            <h2 class="footer-title">Исполнителю</h2>
-            <a class="footer-link" href="#">Возможности</a>
-            <a class="footer-link" href="#">Преимущества</a>
-            <a class="footer-link" href="#">Помощь с работой</a>
-            <a class="footer-link" href="#">Партнерская программа</a>
-          </div>
-          <a class="footer-link" href="#">Политика конфиденциальности</a>
-        </div>
+        <p class="copyright">Copyright @ 2021 - Название сервиса</p>
+      </div>
 
-        <div class="footer-nav-item">
-          <div class="footer-nav-block">
-            <h2 class="footer-title">Рекламодателю</h2>
-            <a class="footer-link" href="#">Возможности</a>
-            <a class="footer-link" href="#">Услуги и цены</a>
-            <a class="footer-link" href="#">Способы оплаты</a>
-            <a class="footer-link" href="#">Частозадаваемые вопросы</a>
-          </div>
-          <a class="footer-link" href="#">Публичная оферта</a>
+      <div class="footer-nav-item">
+        <div class="footer-nav-block">
+          <h2 class="footer-title">Исполнителю</h2>
+          <a class="footer-link" href="#">Возможности</a>
+          <a class="footer-link" href="#">Преимущества</a>
+          <a class="footer-link" href="#">Помощь с работой</a>
+          <a class="footer-link" href="#">Партнерская программа</a>
         </div>
+        <a class="footer-link" href="#">Политика конфиденциальности</a>
+      </div>
 
-        <div class="footer-nav-item">
-          <div class="footer-nav-block">
-            <h2 class="footer-title">О сервисе</h2>
-            <a class="footer-link" href="#">Помощь</a>
-            <a class="footer-link" href="#">Правила</a>
-            <a class="footer-link" href="#">Новости</a>
-            <a class="footer-link" href="#">Контакты</a>
-          </div>
-          <div class="contact-groop">
-            <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12.0054 6.60742C9.02781 6.60742 6.61719 9.02067 6.61719 11.9957C6.61719 14.9733 9.03044 17.3839 12.0054 17.3839C14.9831 17.3839 17.3937 14.9707 17.3937 11.9957C17.3937 9.01805 14.9804 6.60742 12.0054 6.60742ZM12.0054 15.493C10.0726 15.493 8.50806 13.9277 8.50806 11.9957C8.50806 10.0637 10.0734 8.4983 12.0054 8.4983C13.9374 8.4983 15.5028 10.0637 15.5028 11.9957C15.5037 13.9277 13.9383 15.493 12.0054 15.493Z" fill="#57B2F8"/>
-              <path d="M16.3297 1.56596C14.3977 1.47584 9.61232 1.48021 7.67857 1.56596C5.97932 1.64559 4.48045 2.05596 3.27207 3.26434C1.25257 5.28384 1.5107 8.00509 1.5107 11.996C1.5107 16.0805 1.2832 18.7387 3.27207 20.7276C5.29945 22.7541 8.06007 22.489 12.0037 22.489C16.0497 22.489 17.4462 22.4916 18.8768 21.9377C20.8219 21.1826 22.2902 19.444 22.4337 16.3211C22.5247 14.3882 22.5194 9.60371 22.4337 7.66996C22.2604 3.98359 20.2821 1.74796 16.3297 1.56596ZM19.3878 19.3915C18.0639 20.7153 16.2273 20.5972 11.9783 20.5972C7.60332 20.5972 5.84895 20.662 4.56882 19.3783C3.09445 17.911 3.36132 15.5546 3.36132 11.982C3.36132 7.14759 2.8652 3.66596 7.71707 3.41746C8.83182 3.37809 9.15995 3.36496 11.9661 3.36496L12.0054 3.39121C16.6683 3.39121 20.3267 2.90296 20.5463 7.75396C20.5962 8.86084 20.6076 9.19334 20.6076 11.9951C20.6067 16.3193 20.6889 18.0842 19.3878 19.3915Z" fill="#57B2F8"/>
-              <path d="M17.6029 7.65496C18.2983 7.65496 18.862 7.09124 18.862 6.39584C18.862 5.70045 18.2983 5.13672 17.6029 5.13672C16.9075 5.13672 16.3438 5.70045 16.3438 6.39584C16.3438 7.09124 16.9075 7.65496 17.6029 7.65496Z" fill="#57B2F8"/>
-              </svg>
-              </a>
-            <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.45583 13.8159H9.82552V22.5459C9.82552 22.9341 10.1408 23.2491 10.5314 23.2491L14.3023 23.25C14.6929 23.25 15.0082 22.9341 15.0082 22.5469V13.8169H17.2546C17.6103 13.8169 17.9105 13.5525 17.9548 13.2009L18.4234 9.45094C18.4761 9.03281 18.1477 8.66062 17.7233 8.66062H15.0082C15.1145 6.34406 14.5988 5.65875 16.1111 5.65875C17.1351 5.53688 18.75 6.05344 18.75 4.95563V1.60219C18.75 1.25062 18.4893 0.953437 18.1402 0.905625C17.8447 0.865312 16.6768 0.75 15.2284 0.75C8.63126 0.75 9.98928 8.03625 9.82647 8.65969H7.45583C7.06621 8.65969 6.75 8.97469 6.75 9.36281V13.1128C6.75 13.5009 7.06621 13.8159 7.45583 13.8159ZM8.16165 10.0669H10.5314C10.921 10.0669 11.2372 9.75187 11.2372 9.36375V6.40969C11.2372 3.70688 12.6912 2.15719 15.2275 2.15719C16.0537 2.15719 16.8142 2.1975 17.3374 2.23875V4.25344C16.9591 4.44563 13.5956 3.42469 13.5956 6.78188V9.36469C13.5956 9.75281 13.9118 10.0678 14.3014 10.0678H16.9233L16.6297 12.4116H14.3014C13.9118 12.4116 13.5956 12.7266 13.5956 13.1147V21.8438H11.2381V13.1137C11.2381 12.7256 10.9219 12.4106 10.5323 12.4106H8.16165V10.0669Z" fill="#57B2F8"/>
-              </svg>
-              </a>
-            <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="footer-nav-item">
+        <div class="footer-nav-block">
+          <h2 class="footer-title">Рекламодателю</h2>
+          <a class="footer-link" href="#">Возможности</a>
+          <a class="footer-link" href="#">Услуги и цены</a>
+          <a class="footer-link" href="#">Способы оплаты</a>
+          <a class="footer-link" href="#">Частозадаваемые вопросы</a>
+        </div>
+        <a class="footer-link" href="#">Публичная оферта</a>
+      </div>
+
+      <div class="footer-nav-item">
+        <div class="footer-nav-block">
+          <h2 class="footer-title">О сервисе</h2>
+          <a class="footer-link" href="#">Помощь</a>
+          <a class="footer-link" href="#">Правила</a>
+          <a class="footer-link" href="#">Новости</a>
+          <a class="footer-link" href="#">Контакты</a>
+        </div>
+        <div class="contact-groop">
+          <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.0054 6.60742C9.02781 6.60742 6.61719 9.02067 6.61719 11.9957C6.61719 14.9733 9.03044 17.3839 12.0054 17.3839C14.9831 17.3839 17.3937 14.9707 17.3937 11.9957C17.3937 9.01805 14.9804 6.60742 12.0054 6.60742ZM12.0054 15.493C10.0726 15.493 8.50806 13.9277 8.50806 11.9957C8.50806 10.0637 10.0734 8.4983 12.0054 8.4983C13.9374 8.4983 15.5028 10.0637 15.5028 11.9957C15.5037 13.9277 13.9383 15.493 12.0054 15.493Z"
+                fill="#57B2F8" />
+              <path
+                d="M16.3297 1.56596C14.3977 1.47584 9.61232 1.48021 7.67857 1.56596C5.97932 1.64559 4.48045 2.05596 3.27207 3.26434C1.25257 5.28384 1.5107 8.00509 1.5107 11.996C1.5107 16.0805 1.2832 18.7387 3.27207 20.7276C5.29945 22.7541 8.06007 22.489 12.0037 22.489C16.0497 22.489 17.4462 22.4916 18.8768 21.9377C20.8219 21.1826 22.2902 19.444 22.4337 16.3211C22.5247 14.3882 22.5194 9.60371 22.4337 7.66996C22.2604 3.98359 20.2821 1.74796 16.3297 1.56596ZM19.3878 19.3915C18.0639 20.7153 16.2273 20.5972 11.9783 20.5972C7.60332 20.5972 5.84895 20.662 4.56882 19.3783C3.09445 17.911 3.36132 15.5546 3.36132 11.982C3.36132 7.14759 2.8652 3.66596 7.71707 3.41746C8.83182 3.37809 9.15995 3.36496 11.9661 3.36496L12.0054 3.39121C16.6683 3.39121 20.3267 2.90296 20.5463 7.75396C20.5962 8.86084 20.6076 9.19334 20.6076 11.9951C20.6067 16.3193 20.6889 18.0842 19.3878 19.3915Z"
+                fill="#57B2F8" />
+              <path
+                d="M17.6029 7.65496C18.2983 7.65496 18.862 7.09124 18.862 6.39584C18.862 5.70045 18.2983 5.13672 17.6029 5.13672C16.9075 5.13672 16.3438 5.70045 16.3438 6.39584C16.3438 7.09124 16.9075 7.65496 17.6029 7.65496Z"
+                fill="#57B2F8" />
+            </svg>
+          </a>
+          <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.45583 13.8159H9.82552V22.5459C9.82552 22.9341 10.1408 23.2491 10.5314 23.2491L14.3023 23.25C14.6929 23.25 15.0082 22.9341 15.0082 22.5469V13.8169H17.2546C17.6103 13.8169 17.9105 13.5525 17.9548 13.2009L18.4234 9.45094C18.4761 9.03281 18.1477 8.66062 17.7233 8.66062H15.0082C15.1145 6.34406 14.5988 5.65875 16.1111 5.65875C17.1351 5.53688 18.75 6.05344 18.75 4.95563V1.60219C18.75 1.25062 18.4893 0.953437 18.1402 0.905625C17.8447 0.865312 16.6768 0.75 15.2284 0.75C8.63126 0.75 9.98928 8.03625 9.82647 8.65969H7.45583C7.06621 8.65969 6.75 8.97469 6.75 9.36281V13.1128C6.75 13.5009 7.06621 13.8159 7.45583 13.8159ZM8.16165 10.0669H10.5314C10.921 10.0669 11.2372 9.75187 11.2372 9.36375V6.40969C11.2372 3.70688 12.6912 2.15719 15.2275 2.15719C16.0537 2.15719 16.8142 2.1975 17.3374 2.23875V4.25344C16.9591 4.44563 13.5956 3.42469 13.5956 6.78188V9.36469C13.5956 9.75281 13.9118 10.0678 14.3014 10.0678H16.9233L16.6297 12.4116H14.3014C13.9118 12.4116 13.5956 12.7266 13.5956 13.1147V21.8438H11.2381V13.1137C11.2381 12.7256 10.9219 12.4106 10.5323 12.4106H8.16165V10.0669Z"
+                fill="#57B2F8" />
+            </svg>
+          </a>
+          <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_723_10533)">
-              <path d="M12.145 19.5C15.617 19.5 14.379 17.302 14.647 16.67C14.643 16.198 14.639 15.744 14.655 15.468C14.875 15.53 15.394 15.793 16.466 16.835C18.121 18.505 18.544 19.5 19.881 19.5H22.342C23.122 19.5 23.528 19.177 23.731 18.906C23.927 18.644 24.119 18.184 23.909 17.468C23.36 15.744 20.158 12.767 19.959 12.453C19.989 12.395 20.037 12.318 20.062 12.278H20.06C20.692 11.443 23.104 7.829 23.459 6.383C23.46 6.381 23.461 6.378 23.461 6.375C23.653 5.715 23.477 5.287 23.295 5.045C23.021 4.683 22.585 4.5 21.996 4.5H19.535C18.711 4.5 18.086 4.915 17.77 5.672C17.241 7.017 15.755 9.783 14.641 10.762C14.607 9.375 14.63 8.316 14.648 7.529C14.684 5.994 14.8 4.5 13.207 4.5H9.339C8.341 4.5 7.386 5.59 8.42 6.884C9.324 8.018 8.745 8.65 8.94 11.796C8.18 10.981 6.828 8.78 5.872 5.967C5.604 5.206 5.198 4.501 4.055 4.501H1.594C0.596 4.501 0 5.045 0 5.956C0 8.002 4.529 19.5 12.145 19.5ZM4.055 6.001C4.272 6.001 4.294 6.001 4.455 6.458C5.434 9.341 7.63 13.607 9.234 13.607C10.439 13.607 10.439 12.372 10.439 11.907L10.438 8.205C10.372 6.98 9.926 6.37 9.633 6L13.141 6.004C13.143 6.021 13.121 10.099 13.151 11.087C13.151 12.49 14.265 13.294 16.004 11.534C17.839 9.463 19.108 6.367 19.159 6.241C19.234 6.061 19.299 6 19.535 6H21.996H22.006C22.005 6.003 22.005 6.006 22.004 6.009C21.779 7.059 19.558 10.405 18.815 11.444C18.803 11.46 18.792 11.477 18.781 11.494C18.454 12.028 18.188 12.618 18.826 13.448H18.827C18.885 13.518 19.036 13.682 19.256 13.91C19.94 14.616 22.286 17.03 22.494 17.99C22.356 18.012 22.206 17.996 19.881 18.001C19.386 18.001 18.999 17.261 17.522 15.771C16.194 14.479 15.332 13.951 14.547 13.951C13.023 13.951 13.134 15.188 13.148 16.684C13.153 18.306 13.143 17.793 13.154 17.895C13.065 17.93 12.81 18 12.145 18C5.8 18 1.668 7.929 1.509 6.004C1.564 5.999 2.321 6.002 4.055 6.001Z" fill="#57B2F8"/>
+                <path
+                  d="M12.145 19.5C15.617 19.5 14.379 17.302 14.647 16.67C14.643 16.198 14.639 15.744 14.655 15.468C14.875 15.53 15.394 15.793 16.466 16.835C18.121 18.505 18.544 19.5 19.881 19.5H22.342C23.122 19.5 23.528 19.177 23.731 18.906C23.927 18.644 24.119 18.184 23.909 17.468C23.36 15.744 20.158 12.767 19.959 12.453C19.989 12.395 20.037 12.318 20.062 12.278H20.06C20.692 11.443 23.104 7.829 23.459 6.383C23.46 6.381 23.461 6.378 23.461 6.375C23.653 5.715 23.477 5.287 23.295 5.045C23.021 4.683 22.585 4.5 21.996 4.5H19.535C18.711 4.5 18.086 4.915 17.77 5.672C17.241 7.017 15.755 9.783 14.641 10.762C14.607 9.375 14.63 8.316 14.648 7.529C14.684 5.994 14.8 4.5 13.207 4.5H9.339C8.341 4.5 7.386 5.59 8.42 6.884C9.324 8.018 8.745 8.65 8.94 11.796C8.18 10.981 6.828 8.78 5.872 5.967C5.604 5.206 5.198 4.501 4.055 4.501H1.594C0.596 4.501 0 5.045 0 5.956C0 8.002 4.529 19.5 12.145 19.5ZM4.055 6.001C4.272 6.001 4.294 6.001 4.455 6.458C5.434 9.341 7.63 13.607 9.234 13.607C10.439 13.607 10.439 12.372 10.439 11.907L10.438 8.205C10.372 6.98 9.926 6.37 9.633 6L13.141 6.004C13.143 6.021 13.121 10.099 13.151 11.087C13.151 12.49 14.265 13.294 16.004 11.534C17.839 9.463 19.108 6.367 19.159 6.241C19.234 6.061 19.299 6 19.535 6H21.996H22.006C22.005 6.003 22.005 6.006 22.004 6.009C21.779 7.059 19.558 10.405 18.815 11.444C18.803 11.46 18.792 11.477 18.781 11.494C18.454 12.028 18.188 12.618 18.826 13.448H18.827C18.885 13.518 19.036 13.682 19.256 13.91C19.94 14.616 22.286 17.03 22.494 17.99C22.356 18.012 22.206 17.996 19.881 18.001C19.386 18.001 18.999 17.261 17.522 15.771C16.194 14.479 15.332 13.951 14.547 13.951C13.023 13.951 13.134 15.188 13.148 16.684C13.153 18.306 13.143 17.793 13.154 17.895C13.065 17.93 12.81 18 12.145 18C5.8 18 1.668 7.929 1.509 6.004C1.564 5.999 2.321 6.002 4.055 6.001Z"
+                  fill="#57B2F8" />
               </g>
               <defs>
-              <clipPath id="clip0_723_10533">
-              <rect width="24" height="24" fill="white"/>
-              </clipPath>
+                <clipPath id="clip0_723_10533">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
               </defs>
-              </svg>
-              </a>
-            <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15.4626 10.9893L10.4919 8.26955C10.2061 8.11317 9.86828 8.119 9.58814 8.285C9.30782 8.45116 9.14062 8.7447 9.14062 9.07051V14.4633C9.14062 14.7876 9.30679 15.0806 9.58522 15.247C9.73061 15.3338 9.8918 15.3774 10.0533 15.3774C10.2013 15.3774 10.3496 15.3409 10.4861 15.2674L15.4569 12.5945C15.752 12.4357 15.9362 12.1289 15.9376 11.7937C15.9388 11.4585 15.7568 11.1503 15.4626 10.9893ZM10.4591 13.7849V9.7544L14.1741 11.7872L10.4591 13.7849Z" fill="#57B2F8" stroke="#57B2F8" stroke-width="0.4"/>
-              <path d="M23.0841 7.49674L23.083 7.48644C23.064 7.30534 22.8743 5.6945 22.0912 4.87517C21.1861 3.91148 20.1599 3.79441 19.6664 3.73828C19.6255 3.73364 19.5881 3.72935 19.5546 3.72489L19.5153 3.72077C16.5408 3.50448 12.0487 3.47495 12.0037 3.47478L11.9998 3.47461L11.9958 3.47478C11.9509 3.47495 7.45874 3.50448 4.45747 3.72077L4.41782 3.72489C4.38589 3.72918 4.3507 3.73313 4.31242 3.73759C3.82457 3.79389 2.80938 3.91114 1.90165 4.90968C1.1558 5.72025 0.940197 7.29659 0.918053 7.47374L0.915478 7.49674C0.908784 7.5721 0.75 9.36611 0.75 11.1671V12.8508C0.75 14.6518 0.908784 16.4458 0.915478 16.5214L0.91668 16.5327C0.935734 16.7109 1.12524 18.2922 1.90474 19.1119C2.75582 20.0433 3.83195 20.1665 4.41078 20.2328C4.50227 20.2433 4.58106 20.2522 4.63479 20.2616L4.6868 20.2688C6.40424 20.4323 11.789 20.5128 12.0173 20.516L12.0242 20.5162L12.031 20.516C12.076 20.5159 16.5679 20.4863 19.5424 20.27L19.5817 20.2659C19.6193 20.2609 19.6616 20.2565 19.7079 20.2517C20.193 20.2002 21.2027 20.0932 22.0979 19.1083C22.8438 18.2975 23.0595 16.7212 23.0815 16.5442L23.0841 16.5212C23.0908 16.4457 23.2497 14.6518 23.2497 12.8508V11.1671C23.2496 9.36611 23.0908 7.57227 23.0841 7.49674ZM21.9311 12.8508C21.9311 14.5178 21.7855 16.2345 21.7718 16.3921C21.7158 16.8262 21.4883 17.8236 21.1249 18.2185C20.5647 18.835 19.9891 18.8961 19.5689 18.9405C19.5181 18.9459 19.471 18.951 19.4284 18.9563C16.5515 19.1644 12.2289 19.1963 12.0298 19.1975C11.8065 19.1943 6.50054 19.1131 4.83546 18.9584C4.75015 18.9445 4.65797 18.9338 4.56081 18.9229C4.06798 18.8664 3.39336 18.7891 2.87461 18.2185L2.86242 18.2055C2.50537 17.8335 2.28445 16.9009 2.22832 16.3972C2.21785 16.2781 2.06851 14.5411 2.06851 12.8508V11.1671C2.06851 9.50206 2.21373 7.78719 2.2278 7.62635C2.29458 7.11497 2.52632 6.17806 2.87461 5.79938C3.45207 5.16425 4.06094 5.09387 4.46365 5.04735C4.5021 5.04288 4.53798 5.03876 4.57111 5.03447C7.48998 4.82539 11.8436 4.79432 11.9998 4.79312C12.156 4.79415 16.508 4.82539 19.401 5.03447C19.4365 5.03893 19.4753 5.0434 19.517 5.0482C19.9312 5.09541 20.5573 5.16682 21.1318 5.77964L21.1371 5.78531C21.4942 6.15729 21.7151 7.10622 21.7712 7.61999C21.7812 7.73243 21.9311 9.47322 21.9311 11.1671V12.8508Z" fill="#57B2F8" stroke="#57B2F8" stroke-width="0.4"/>
-              </svg>
-              </a>
-          </div>
+            </svg>
+          </a>
+          <a class="contact-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15.4626 10.9893L10.4919 8.26955C10.2061 8.11317 9.86828 8.119 9.58814 8.285C9.30782 8.45116 9.14062 8.7447 9.14062 9.07051V14.4633C9.14062 14.7876 9.30679 15.0806 9.58522 15.247C9.73061 15.3338 9.8918 15.3774 10.0533 15.3774C10.2013 15.3774 10.3496 15.3409 10.4861 15.2674L15.4569 12.5945C15.752 12.4357 15.9362 12.1289 15.9376 11.7937C15.9388 11.4585 15.7568 11.1503 15.4626 10.9893ZM10.4591 13.7849V9.7544L14.1741 11.7872L10.4591 13.7849Z"
+                fill="#57B2F8" stroke="#57B2F8" stroke-width="0.4" />
+              <path
+                d="M23.0841 7.49674L23.083 7.48644C23.064 7.30534 22.8743 5.6945 22.0912 4.87517C21.1861 3.91148 20.1599 3.79441 19.6664 3.73828C19.6255 3.73364 19.5881 3.72935 19.5546 3.72489L19.5153 3.72077C16.5408 3.50448 12.0487 3.47495 12.0037 3.47478L11.9998 3.47461L11.9958 3.47478C11.9509 3.47495 7.45874 3.50448 4.45747 3.72077L4.41782 3.72489C4.38589 3.72918 4.3507 3.73313 4.31242 3.73759C3.82457 3.79389 2.80938 3.91114 1.90165 4.90968C1.1558 5.72025 0.940197 7.29659 0.918053 7.47374L0.915478 7.49674C0.908784 7.5721 0.75 9.36611 0.75 11.1671V12.8508C0.75 14.6518 0.908784 16.4458 0.915478 16.5214L0.91668 16.5327C0.935734 16.7109 1.12524 18.2922 1.90474 19.1119C2.75582 20.0433 3.83195 20.1665 4.41078 20.2328C4.50227 20.2433 4.58106 20.2522 4.63479 20.2616L4.6868 20.2688C6.40424 20.4323 11.789 20.5128 12.0173 20.516L12.0242 20.5162L12.031 20.516C12.076 20.5159 16.5679 20.4863 19.5424 20.27L19.5817 20.2659C19.6193 20.2609 19.6616 20.2565 19.7079 20.2517C20.193 20.2002 21.2027 20.0932 22.0979 19.1083C22.8438 18.2975 23.0595 16.7212 23.0815 16.5442L23.0841 16.5212C23.0908 16.4457 23.2497 14.6518 23.2497 12.8508V11.1671C23.2496 9.36611 23.0908 7.57227 23.0841 7.49674ZM21.9311 12.8508C21.9311 14.5178 21.7855 16.2345 21.7718 16.3921C21.7158 16.8262 21.4883 17.8236 21.1249 18.2185C20.5647 18.835 19.9891 18.8961 19.5689 18.9405C19.5181 18.9459 19.471 18.951 19.4284 18.9563C16.5515 19.1644 12.2289 19.1963 12.0298 19.1975C11.8065 19.1943 6.50054 19.1131 4.83546 18.9584C4.75015 18.9445 4.65797 18.9338 4.56081 18.9229C4.06798 18.8664 3.39336 18.7891 2.87461 18.2185L2.86242 18.2055C2.50537 17.8335 2.28445 16.9009 2.22832 16.3972C2.21785 16.2781 2.06851 14.5411 2.06851 12.8508V11.1671C2.06851 9.50206 2.21373 7.78719 2.2278 7.62635C2.29458 7.11497 2.52632 6.17806 2.87461 5.79938C3.45207 5.16425 4.06094 5.09387 4.46365 5.04735C4.5021 5.04288 4.53798 5.03876 4.57111 5.03447C7.48998 4.82539 11.8436 4.79432 11.9998 4.79312C12.156 4.79415 16.508 4.82539 19.401 5.03447C19.4365 5.03893 19.4753 5.0434 19.517 5.0482C19.9312 5.09541 20.5573 5.16682 21.1318 5.77964L21.1371 5.78531C21.4942 6.15729 21.7151 7.10622 21.7712 7.61999C21.7812 7.73243 21.9311 9.47322 21.9311 11.1671V12.8508Z"
+                fill="#57B2F8" stroke="#57B2F8" stroke-width="0.4" />
+            </svg>
+          </a>
         </div>
       </div>
-    </footer>
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
