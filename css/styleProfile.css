@@ -20,6 +20,10 @@
   font-style: normal;
 }
 
+.icon {
+  cursor: pointer;
+}
+
 /*страница настройки 1*/
 .registration {
   box-shadow: 0px 10px 45px rgba(41, 58, 76, 0.06);
@@ -196,10 +200,6 @@
   align-items: center;
 }
 
-.support-img {
-  width: 24px;
-}
-
 .wallet {
   background-color: #2787f5;
   width: 140px;
@@ -293,11 +293,7 @@
   left: 70px;
 }
 
-.header-icon1,
-.header-icon2 {
-  width: 22px;
-  height: 22px;
-}
+
 .header-icon2 {
   margin-left: 31px;
 }
@@ -432,8 +428,7 @@
 }
 
 .connect-icon {
-  width: 28px;
-  height: 28px;
+  
   margin-left: 10px;
 }
 
@@ -984,9 +979,7 @@
   padding: 18px 32px;
   margin-bottom: 32px;
 }
-.status-img {
-  width: 58px;
-}
+
 
 .status-item {
   align-self: end;
@@ -1005,9 +998,7 @@
   font-weight: 350;
   margin-right: 12px;
 }
-.icon-revers {
-  transform: scale(-1, -1);
-}
+
 
 .acccrual-text-left {
   font-weight: bold;
@@ -3544,7 +3535,6 @@ hr {
   font-size: 12px;
   line-height: 14px;
   text-align: center;
-
   color: #2787f5;
   box-shadow: 0px 15px 25px rgba(41, 58, 76, 0.05);
   border-radius: 8px;
@@ -3552,7 +3542,6 @@ hr {
   height: 24px;
   display: flex;
   align-items: center;
-
   justify-content: center;
 }
 
@@ -3645,9 +3634,7 @@ hr {
 .question-title {
   color: #293a4c;
   padding: 16px 24px;
-
   background: rgba(241, 241, 241, 0.4);
-
   border-radius: 12px;
 }
 
@@ -3678,7 +3665,6 @@ hr {
 .block-support {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
   margin-top: 100px;
@@ -3806,7 +3792,6 @@ hr {
   opacity: 0.7;
 }
 
-
 .content-padding {
   padding-bottom: 32px;
 }
@@ -3819,18 +3804,18 @@ hr {
 .balance-block {
   display: flex;
   flex-direction: column;
-  background: #FFFFFF;
-padding:40px;
-box-shadow: 0px 15px 25px rgba(41, 58, 76, 0.05);
-border-radius: 13px;
-width: 50%;align-items: center;
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0px 15px 25px rgba(41, 58, 76, 0.05);
+  border-radius: 13px;
+  width: 50%;
+  align-items: center;
 }
 
 .balance-cards {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  
 }
 
 .balance-card {
@@ -3839,7 +3824,7 @@ width: 50%;align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 10px 25px rgb(41 58 76 / 5%);
   border-radius: 16px;
   margin-right: 8px;
@@ -3849,18 +3834,15 @@ width: 50%;align-items: center;
 
 .balance-text {
   font-weight: 300;
-
-line-height: 150%;
-text-align: center;
-color: #293A4C;
-
+  line-height: 150%;
+  text-align: center;
+  color: #293a4c;
 }
-
 
 .views-balance {
   padding: 17px 39px;
-  background: #F1F1F1;
-opacity: 0.4;
-border-radius: 12px;
-margin: 0;
+  background: #f1f1f1;
+  opacity: 0.4;
+  border-radius: 12px;
+  margin: 0;
 }
