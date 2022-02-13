@@ -603,6 +603,42 @@
   display: flex;
   margin-top: 16px;
 }
+.empty-block,.black-list-block {
+  background: #FFFFFF;
+box-shadow: 0px 20px 35px rgba(41, 58, 76, 0.04);
+border-radius: 16px;
+}
+.empty-text {font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+   text-align: center;
+    color: #727384;
+  padding: 250px 0;
+  margin: 0 auto;
+}
+
+.black-list-block .empty-text {
+  padding: 0;
+  margin: 24px 0 40px 0;
+  
+}
+.black-list {
+  display: flex;
+padding: 223px 0;
+  flex-direction: column;
+  align-items:center;
+}
+.button-black-list {
+  padding: 11px 24px;background: #62B049;
+  border-radius: 27px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-black-list:hover {
+  background-color: rgba(114, 115, 132, 0.5);
+}
 
 .user-foto {
   width: 44px;
@@ -661,7 +697,7 @@
   opacity: 0.6;
   font-size: 14px;
   line-height: 150%;
-  margin-top: 16px;
+  margin-top: 16px;opacity: 1;
 }
 .footer-link:hover {
   color: #17212b;
@@ -1684,6 +1720,18 @@
   margin-bottom: 16px;
 }
 
+.message-write,.message-recover {
+  background-color: rgba(241, 241, 241, 0.8);
+}
+
+.block-del-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
 .img-search {
   position: absolute;
   margin-left: 35px;
@@ -1716,7 +1764,7 @@
   margin-bottom: 40px;
 }
 .block-message-unread,
-.block-message-grey {
+.block-message-grey,.message-write,.message-recover {
   margin: 0;
   margin-left: -40px;
   margin-right: -40px;
@@ -1732,17 +1780,40 @@
 .message-text {
   position: relative;
   margin-left: 16px;
-  width: 75%;
+  
   cursor: pointer;
   width: 750px;
 }
-
+.message-del {
+  display: flex;
+    align-items: flex-end;
+}
 .counter-message {
   position: absolute;
   right: 15px;
   top: 50%;
 }
+.textarea-white {
+  background: #FFFFFF;
+  width: 100%;
+  margin-bottom: 8px;
+  margin-left: 0;
+}
 
+.message-input-img {
+  position: absolute;
+  right: 34px;
+  top: 13px;
+}
+
+.message-tools {
+  font-size: 12px;
+line-height: 130%;
+
+color: #293A4C;
+margin-left: 20px;
+opacity: 0.8;
+}
 .user-message-unread,
 .user-message-grey {
   background: #fff;
@@ -1760,6 +1831,11 @@
   padding: 40px 0;
 }
 
+
+.recover {
+  color: #293A4C;
+  
+  opacity: 0.8;}
 .message-user {
   display: flex;
   padding-bottom: 18px;
@@ -1854,6 +1930,7 @@
   align-items: center;
 }
 
+
 .messages-item-link {
   text-decoration: none;
   line-height: 130%;
@@ -1876,7 +1953,7 @@
   right: -20px;
 }
 
-.sub-menu-messages {
+.sub-menu-messages {  /* display-none*/
   background: #ffffff;
   box-shadow: 0px 20px 35px rgba(41, 58, 76, 0.04);
   border-radius: 16px;
@@ -1890,7 +1967,7 @@
   right: 0;
   justify-content: space-between;
 
-  /*display: none;*/
+  display: none;
 }
 
 .sub-menu-link {
@@ -1989,6 +2066,19 @@
   position: relative;
   display: flex;
   margin-top: 24px;
+}
+
+.message-none {
+background-color: #e3e6ec;
+  border-radius: 13px;
+  list-style-type: none;
+  padding: 26px 32px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293a4c;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
 }
 
 .clip {
@@ -2091,7 +2181,7 @@
   text-align: center;
 
   /* white */
-  background-color: ;
+  
   color: #ffffff;
   margin: 0 auto;
   margin-top: 32px;
@@ -3846,3 +3936,51 @@ hr {
   border-radius: 12px;
   margin: 0;
 }
+
+/*селекты*/
+.select-css { 
+  display: block; 
+  font-weight: 300;
+  line-height: 16px;
+    color: #293A4C;
+    padding: 1.1em 2.4em 1.1em 2.1em;
+   width: 100%; 
+  max-width: 100%; 
+  box-sizing: border-box; 
+  margin: 0; 
+  margin-bottom: 30px;
+  border: none;
+   box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+  border-radius: .5em;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   background-color: #fff; 
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); 
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%; 
+  } 
+   .select-css::-ms-expand { display: none; } 
+   .select-css:hover { border-color: #888; } 
+   .select-css:focus { border-color: #aaa; 
+  
+   box-shadow: 0 0 0 3px -moz-mac-focusring; 
+   color: #293A4C;
+   outline: none; 
+  } 
+   .select-css option { 
+     font-weight:normal; 
+     color: #293A4C;
+  
+    
+    } 
+   *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
+  background-position: left .7em top 50%, 0 0; 
+  padding: 1.1em 2.4em 1.1em 2.1em;
+  }
+
+  .option:hover {
+    background: olive linear-gradient(olive, olive);
+    color: red;
+  }
