@@ -8,12 +8,14 @@
   <title>account</title>
   <link href="css/styleProfile.css" type="text/css" rel="stylesheet" />
   <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+  
+
 </head>
 
 <body>
   <header class="header">
     <div class="conteiner">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo">
         <img width="107" src="img/logo.jpg" alt="Логотип Adwork" />
       </a>
       <div class="support">
@@ -194,9 +196,8 @@
           </div>
 
           <div class="block-form">
+            
             <form class="form-left">
-
-
 
               <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -239,14 +240,15 @@
                 </svg>
 
                 Время просмотра</label>
-              <div>
-                <p class="input input-menu">Да (на 30 дней) 1899 ₽ (Более 85 000 просмотров) </p>
-                <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-              </div>
+             
+                <select class="select-css"> 
+                  <option class="option">Да (на 30 дней) 1899 ₽ (Более 85 000 просмотров) </option> 
+                  <option class="option">Да (на 10 дней) 1000 ₽ (Более 50 000 просмотров)</option> 
+                  <option class="option">Да (на 5 дней) 500 ₽ (Более 10 000 просмотров)</option> 
+                  <option class="option">Да (на 1 дней) 100 ₽ (Более 5 000 просмотров)</option> 
+                  <option class="option">Нет</option> 
+                  </select>
+            
               <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <circle opacity="0.4" cx="12" cy="12" r="12" fill="#E3E6EC" />
@@ -357,11 +359,11 @@
 
                       Уникальный IP адрес</label>
 
-                    <p class="input ">Уникальный IP адрес</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
+                      <select class="select-css"> 
+                        <option class="option"> Уникальный IP адрес </option> 
+                     
+                        <option class="option">Нет</option> 
+                        </select>
                     </svg>
                   </div>
                   <div class="input-menu"> <label class="label input-menu"><svg class="question" width="24" height="24"
@@ -374,12 +376,12 @@
 
                       По половому признаку</label>
 
-                    <p class="input ">По половому признаку </p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                      <select class="select-css"> 
+                        <option class="option">Все пользователи </option>
+                        <option class="option">женщина </option> 
+         
+                        <option class="option">мужчина</option> 
+                        </select>
 
                   </div>
                   <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -394,20 +396,14 @@
                   <div class="age-block">
 
                     <div class="before">
-                      <p class="input input-menu ">от </p>
-                      <svg class="img-age" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                      </svg>
+                      <input class="input" name="" type="text" placeholder="от" required maxlength="10"
+              minlength="1" autocomplete="on" />
+                     
                     </div>
                     <div class="after">
-                      <p class="input input-menu ">до </p>
-                      <svg class="img-age" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                      </svg>
+                      <input class="input" name="" type="text" placeholder="до" required maxlength="10"
+              minlength="1" autocomplete="on" />
+                     
                     </div>
                   </div>
 
@@ -422,12 +418,11 @@
 
                       Выделить цветом</label>
 
-                    <p class="input ">Нет</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                      <select class="select-css"> 
+                        <option class="option">Да </option> 
+      
+                        <option class="option">Нет</option> 
+                        </select>
                   </div>
 
                   <label class="label"><svg class="question" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -459,12 +454,13 @@
 
                       Аудитория смотрящих</label>
 
-                    <p class="input ">Все пользователи проекта</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                
+                    <select class="select-css"> 
+                      <option class="option">Все пользователи проекта </option> 
+                      <option class="option">Только друзья</option> 
+    
+                      <option class="option">Никто</option> 
+                      </select>
                   </div>
 
                   <div class="input-menu">
@@ -478,12 +474,13 @@
 
                       По рейтингу пользователя</label>
 
-                    <p class="input ">(0 - без ограничений)</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                
+                    <select class="select-css"> 
+                      <option class="option">(0 - без ограничений)</option> 
+                      <option class="option">Самый высокий</option> 
+    
+                      <option class="option">Самый низкий</option> 
+                      </select>
                   </div>
 
                   <div class="input-menu">
@@ -497,12 +494,13 @@
 
                       По дате регистрации</label>
 
-                    <p class="input ">Любая дата регистрации</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                 
+                    <select class="select-css"> 
+                      <option class="option">Любая дата регистрации</option> 
+                      <option class="option">Менее 1 года</option> 
+    
+                      <option class="option">Менее 1 месяца</option> 
+                      </select>
                   </div>
 
 
@@ -517,12 +515,12 @@
 
                       Разместить в VIP блоке</label>
 
-                    <p class="input ">Нет</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                      <select class="select-css"> 
+                        <option class="option">Да</option> 
+                        <option class="option">Нет</option> 
+      
+                        
+                        </select>
                   </div>
 
                   <div class="input-menu">
@@ -536,12 +534,12 @@
 
                       Активное окно</label>
 
-                    <p class="input ">Нет</p>
-                    <svg class="img-input" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16 10L12 14L8 10" stroke="#727384" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
+                      <select class="select-css"> 
+                        <option class="option">Да</option> 
+                        <option class="option">Нет</option> 
+      
+                        
+                        </select>
                   </div>
                 </form>
               </div><!-- /.block-form -->
@@ -679,7 +677,7 @@
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
+
 </body>
 
 </html>
