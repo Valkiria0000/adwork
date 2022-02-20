@@ -411,7 +411,7 @@
   width: 1056px;
   margin-left: 72px;
   align-self: flex-start;
-  overflow: hidden;
+  overflow: hidden;box-shadow: 0px 30px 40px rgb(41 58 76 / 4%);
 }
 .user-block {
   padding: 40px;
@@ -742,7 +742,10 @@ padding: 223px 0;
 .block-item-comment {
   margin-bottom: 60px;
 }
-
+.comment-item {
+  padding: 40px;
+  margin-bottom: 0;
+}
 .content-block-title {
   font-size: 16px;
   line-height: 19px;
@@ -2944,6 +2947,7 @@ background-color: #e3e6ec;
 
 .award-text-green {
   color: #62b049;
+  font-weight: bold;
 }
 
 .award-link {
@@ -3578,6 +3582,7 @@ hr {
 .adverTest-img {
   position: absolute;
   right: 20px;
+  cursor: pointer;
 }
 
 .form-adverTest {
@@ -3980,7 +3985,64 @@ hr {
   padding: 1.1em 2.4em 1.1em 2.1em;
   }
 
-  .option:hover {
-    background: olive linear-gradient(olive, olive);
-    color: red;
-  }
+
+.button-entrance {
+  width: 80%;
+ margin-bottom: 10px;font-size: 16px;
+ 
+}
+.entrance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0
+  ;
+}
+
+.nav-tab {
+  display: flex;
+  padding-left: 0;
+}
+.nav-tab a{
+  font-size: 16px;
+}
+.nav-tab .tab-item {
+  margin-right: 4px;
+}
+
+.statistic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 3px solid #2787f5;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 64%;
+  background-color: rgba(227, 230, 236, 0.2);
+}
+
+.statistic-info p {
+  font-size: 16px;
+  line-height: 20px;    text-align: center;
+  margin: 8px 0 0 0;
+ 
+ }
+.statistic-info span {
+ font-weight: bold;
+color: #62b049;
+}
+
+.logo-header {
+  transform: scale(1.5);
+  margin-left: 30px;
+}
+
+.block-account {
+  margin-top: 40px;
+}
+
+.block-account .content-block-item{
+ justify-content: center;
+} 
