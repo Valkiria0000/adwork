@@ -4046,3 +4046,19 @@ color: #62b049;
 .block-account .content-block-item{
  justify-content: center;
 } 
+.input-account {
+  margin: 0;
+  margin-right: 30px;    width: 20em;
+}
+.form-account {
+  display: flex;
+  align-items: center;   
+  padding: 40px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(114, 115, 132, 0.2);
+ 
+}
+
+.form-account-right {
+  width: 50%;
+}
